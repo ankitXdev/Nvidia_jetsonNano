@@ -1,0 +1,1133 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>how_to_get_started</title><style>@charset "UTF-8";@import 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css';code{color:#c7254e;background-color:#f9f2f4;border-radius:4px}code,kbd{padding:2px 4px}kbd{color:#fff;background-color:#333;border-radius:3px;box-shadow:inset 0 -1px 0 rgba(0,0,0,.25)}kbd kbd{padding:0;font-size:100%;box-shadow:none}pre{display:block;margin:0 0 10px;word-break:break-all;word-wrap:break-word;color:#333;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border-radius:0}.pre-scrollable{max-height:340px;overflow-y:scroll}table{background-color:transparent}th{text-align:left}.table{width:100%;max-width:100%;margin-bottom:20px}.table>thead>tr>th{padding:8px;line-height:1.4285714;border-top:1px solid #ddd}.table>thead>tr>td,.table>tbody>tr>th,.table>tbody>tr>td,.table>tfoot>tr>th,.table>tfoot>tr>td{padding:8px;line-height:1.4285714;vertical-align:top;border-top:1px solid #ddd}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}.table>caption+thead>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>th,.table>thead:first-child>tr:first-child>td{border-top:0}.table>tbody+tbody{border-top:2px solid #ddd}.table .table{background-color:#fff}.table-condensed>thead>tr>th,.table-condensed>thead>tr>td,.table-condensed>tbody>tr>th,.table-condensed>tbody>tr>td,.table-condensed>tfoot>tr>th,.table-condensed>tfoot>tr>td{padding:5px}.table-bordered,.table-bordered>thead>tr>th,.table-bordered>thead>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tbody>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>tfoot>tr>td{border:1px solid #ddd}.table-bordered>thead>tr>th,.table-bordered>thead>tr>td{border-bottom-width:2px}.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{background-color:#f9f9f9}.table-hover>tbody>tr:hover>td,.table-hover>tbody>tr:hover>th{background-color:#f5f5f5}table col[class*="col-"]{position:static;float:none;display:table-column}table td[class*="col-"],table th[class*="col-"]{position:static;float:none;display:table-cell}.table>thead>tr>td.active,.table>thead>tr>th.active,.table>thead>tr.active>td,.table>thead>tr.active>th,.table>tbody>tr>td.active,.table>tbody>tr>th.active,.table>tbody>tr.active>td,.table>tbody>tr.active>th,.table>tfoot>tr>td.active,.table>tfoot>tr>th.active,.table>tfoot>tr.active>td,.table>tfoot>tr.active>th{background-color:#f5f5f5}.table-hover>tbody>tr>td.active:hover,.table-hover>tbody>tr>th.active:hover,.table-hover>tbody>tr.active:hover>td,.table-hover>tbody>tr:hover>.active,.table-hover>tbody>tr.active:hover>th{background-color:#e8e8e8}.table>thead>tr>td.success,.table>thead>tr>th.success,.table>thead>tr.success>td,.table>thead>tr.success>th,.table>tbody>tr>td.success,.table>tbody>tr>th.success,.table>tbody>tr.success>td,.table>tbody>tr.success>th,.table>tfoot>tr>td.success,.table>tfoot>tr>th.success,.table>tfoot>tr.success>td,.table>tfoot>tr.success>th{background-color:#dff0d8}.table-hover>tbody>tr>td.success:hover,.table-hover>tbody>tr>th.success:hover,.table-hover>tbody>tr.success:hover>td,.table-hover>tbody>tr:hover>.success,.table-hover>tbody>tr.success:hover>th{background-color:#d0e9c6}.table>thead>tr>td.info,.table>thead>tr>th.info,.table>thead>tr.info>td,.table>thead>tr.info>th,.table>tbody>tr>td.info,.table>tbody>tr>th.info,.table>tbody>tr.info>td,.table>tbody>tr.info>th,.table>tfoot>tr>td.info,.table>tfoot>tr>th.info,.table>tfoot>tr.info>td,.table>tfoot>tr.info>th{background-color:#d9edf7}.table-hover>tbody>tr>td.info:hover,.table-hover>tbody>tr>th.info:hover,.table-hover>tbody>tr.info:hover>td,.table-hover>tbody>tr:hover>.info,.table-hover>tbody>tr.info:hover>th{background-color:#c4e3f3}.table>thead>tr>td.warning,.table>thead>tr>th.warning,.table>thead>tr.warning>td,.table>thead>tr.warning>th,.table>tbody>tr>td.warning,.table>tbody>tr>th.warning,.table>tbody>tr.warning>td,.table>tbody>tr.warning>th,.table>tfoot>tr>td.warning,.table>tfoot>tr>th.warning,.table>tfoot>tr.warning>td,.table>tfoot>tr.warning>th{background-color:#fcf8e3}.table-hover>tbody>tr>td.warning:hover,.table-hover>tbody>tr>th.warning:hover,.table-hover>tbody>tr.warning:hover>td,.table-hover>tbody>tr:hover>.warning,.table-hover>tbody>tr.warning:hover>th{background-color:#faf2cc}.table>thead>tr>td.danger,.table>thead>tr>th.danger,.table>thead>tr.danger>td,.table>thead>tr.danger>th,.table>tbody>tr>td.danger,.table>tbody>tr>th.danger,.table>tbody>tr.danger>td,.table>tbody>tr.danger>th,.table>tfoot>tr>td.danger,.table>tfoot>tr>th.danger,.table>tfoot>tr.danger>td,.table>tfoot>tr.danger>th{background-color:#f2dede}.table-hover>tbody>tr>td.danger:hover,.table-hover>tbody>tr>th.danger:hover,.table-hover>tbody>tr.danger:hover>td,.table-hover>tbody>tr:hover>.danger,.table-hover>tbody>tr.danger:hover>th{background-color:#ebcccc}fieldset{border:0;min-width:0}legend{display:block;width:100%;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border-bottom:1px solid #e5e5e5}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}input[type="radio"],input[type="checkbox"]{margin:4px 0 0;margin-top:1px \9;line-height:normal}input[type="file"]{display:block}input[type="range"]{display:block;width:100%}select[multiple],select[size]{height:auto}input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}output{padding-top:7px}output,.form-control{display:block;font-size:14px;line-height:1.4285714;color:#555}.form-control{width:100%;height:34px;padding:6px 12px;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#777;opacity:1}.form-control:-ms-input-placeholder{color:#777}.form-control::-webkit-input-placeholder{color:#777}.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{cursor:not-allowed;background-color:#eee;opacity:1}textarea.form-control{height:auto}input[type="date"],input[type="time"],input[type="datetime-local"],input[type="month"]{line-height:34px;line-height:1.4285714 \0}input[type="date"].input-sm,.form-horizontal .form-group-sm input.form-control[type="date"],.input-group-sm>input.form-control[type="date"],.input-group-sm>input.input-group-addon[type="date"],.input-group-sm>.input-group-btn>input.btn[type="date"],input[type="time"].input-sm,.form-horizontal .form-group-sm input.form-control[type="time"],.input-group-sm>input.form-control[type="time"],.input-group-sm>input.input-group-addon[type="time"],.input-group-sm>.input-group-btn>input.btn[type="time"],input[type="datetime-local"].input-sm,.form-horizontal .form-group-sm input.form-control[type="datetime-local"],.input-group-sm>input.form-control[type="datetime-local"],.input-group-sm>input.input-group-addon[type="datetime-local"],.input-group-sm>.input-group-btn>input.btn[type="datetime-local"],input[type="month"].input-sm,.form-horizontal .form-group-sm input.form-control[type="month"],.input-group-sm>input.form-control[type="month"],.input-group-sm>input.input-group-addon[type="month"],.input-group-sm>.input-group-btn>input.btn[type="month"]{line-height:30px}input[type="date"].input-lg,.form-horizontal .form-group-lg input.form-control[type="date"],.input-group-lg>input.form-control[type="date"],.input-group-lg>input.input-group-addon[type="date"],.input-group-lg>.input-group-btn>input.btn[type="date"],input[type="time"].input-lg,.form-horizontal .form-group-lg input.form-control[type="time"],.input-group-lg>input.form-control[type="time"],.input-group-lg>input.input-group-addon[type="time"],.input-group-lg>.input-group-btn>input.btn[type="time"],input[type="datetime-local"].input-lg,.form-horizontal .form-group-lg input.form-control[type="datetime-local"],.input-group-lg>input.form-control[type="datetime-local"],.input-group-lg>input.input-group-addon[type="datetime-local"],.input-group-lg>.input-group-btn>input.btn[type="datetime-local"],input[type="month"].input-lg,.form-horizontal .form-group-lg input.form-control[type="month"],.input-group-lg>input.form-control[type="month"],.input-group-lg>input.input-group-addon[type="month"],.input-group-lg>.input-group-btn>input.btn[type="month"]{line-height:46px}.form-group{margin-bottom:15px}.radio,.checkbox{position:relative;display:block;min-height:20px;margin-top:10px;margin-bottom:10px}.radio label,.checkbox label{padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer}.radio input[type="radio"],.radio-inline input[type="radio"],.checkbox input[type="checkbox"],.checkbox-inline input[type="checkbox"]{position:absolute;margin-left:-20px;margin-top:4px \9}.radio+.radio,.checkbox+.checkbox{margin-top:-5px}.radio-inline,.checkbox-inline{display:inline-block;padding-left:20px;margin-bottom:0;vertical-align:middle;font-weight:400;cursor:pointer}.radio-inline+.radio-inline,.checkbox-inline+.checkbox-inline{margin-top:0;margin-left:10px}input[type="radio"][disabled],input[type="radio"].disabled,fieldset[disabled] input[type="radio"],input[type="checkbox"][disabled],input[type="checkbox"].disabled,fieldset[disabled] input[type="checkbox"],.radio-inline.disabled,fieldset[disabled] .radio-inline,.checkbox-inline.disabled,fieldset[disabled] .checkbox-inline,.radio.disabled label,fieldset[disabled] .radio label,.checkbox.disabled label,fieldset[disabled] .checkbox label{cursor:not-allowed}.form-control-static{padding-top:7px;padding-bottom:7px;margin-bottom:0}.form-control-static.input-lg,.form-horizontal .form-group-lg .form-control-static.form-control,.input-group-lg>.form-control-static.form-control,.input-group-lg>.form-control-static.input-group-addon,.input-group-lg>.input-group-btn>.form-control-static.btn,.form-control-static.input-sm,.form-horizontal .form-group-sm .form-control-static.form-control,.input-group-sm>.form-control-static.form-control,.input-group-sm>.form-control-static.input-group-addon,.input-group-sm>.input-group-btn>.form-control-static.btn{padding-left:0;padding-right:0}.input-sm,.form-horizontal .form-group-sm .form-control,.input-group-sm>.form-control{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.input-group-sm>.input-group-addon{height:30px;line-height:1.5}.input-group-sm>.input-group-btn>.btn{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}select.input-sm,.form-horizontal .form-group-sm select.form-control,.input-group-sm>select.form-control,.input-group-sm>select.input-group-addon,.input-group-sm>.input-group-btn>select.btn{height:30px;line-height:30px}textarea.input-sm,.form-horizontal .form-group-sm textarea.form-control,.input-group-sm>textarea.form-control,.input-group-sm>textarea.input-group-addon,.input-group-sm>.input-group-btn>textarea.btn,select[multiple].input-sm,.form-horizontal .form-group-sm select.form-control[multiple],.input-group-sm>select.form-control[multiple],.input-group-sm>select.input-group-addon[multiple],.input-group-sm>.input-group-btn>select.btn[multiple]{height:auto}.input-lg,.form-horizontal .form-group-lg .form-control,.input-group-lg>.form-control{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.input-group-lg>.input-group-addon{height:46px;line-height:1.33}.input-group-lg>.input-group-btn>.btn{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}select.input-lg,.form-horizontal .form-group-lg select.form-control,.input-group-lg>select.form-control,.input-group-lg>select.input-group-addon,.input-group-lg>.input-group-btn>select.btn{height:46px;line-height:46px}textarea.input-lg,.form-horizontal .form-group-lg textarea.form-control,.input-group-lg>textarea.form-control,.input-group-lg>textarea.input-group-addon,.input-group-lg>.input-group-btn>textarea.btn,select[multiple].input-lg,.form-horizontal .form-group-lg select.form-control[multiple],.input-group-lg>select.form-control[multiple],.input-group-lg>select.input-group-addon[multiple],.input-group-lg>.input-group-btn>select.btn[multiple]{height:auto}.has-feedback{position:relative}.has-feedback .form-control{padding-right:42.5px}.form-control-feedback{position:absolute;top:25px;right:0;z-index:2;display:block;width:34px;height:34px;line-height:34px;text-align:center}.input-lg+.form-control-feedback,.form-horizontal .form-group-lg .form-control+.form-control-feedback,.input-group-lg>.form-control+.form-control-feedback,.input-group-lg>.input-group-addon+.form-control-feedback,.input-group-lg>.input-group-btn>.btn+.form-control-feedback{width:46px;height:46px;line-height:46px}.input-sm+.form-control-feedback,.form-horizontal .form-group-sm .form-control+.form-control-feedback,.input-group-sm>.form-control+.form-control-feedback,.input-group-sm>.input-group-addon+.form-control-feedback,.input-group-sm>.input-group-btn>.btn+.form-control-feedback{width:30px;height:30px;line-height:30px}.has-success .help-block,.has-success .control-label,.has-success .radio,.has-success .checkbox,.has-success .radio-inline,.has-success .checkbox-inline{color:#3c763d}.has-success .form-control{border-color:#3c763d;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-success .form-control:focus{border-color:#2b542c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #67b168}.has-success .input-group-addon{color:#3c763d;border-color:#3c763d;background-color:#dff0d8}.has-success .form-control-feedback{color:#3c763d}.has-warning .help-block,.has-warning .control-label,.has-warning .radio,.has-warning .checkbox,.has-warning .radio-inline,.has-warning .checkbox-inline{color:#8a6d3b}.has-warning .form-control{border-color:#8a6d3b;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-warning .form-control:focus{border-color:#66512c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #c0a16b}.has-warning .input-group-addon{color:#8a6d3b;border-color:#8a6d3b;background-color:#fcf8e3}.has-warning .form-control-feedback{color:#8a6d3b}.has-error .help-block,.has-error .control-label,.has-error .radio,.has-error .checkbox,.has-error .radio-inline,.has-error .checkbox-inline{color:#a94442}.has-error .form-control{border-color:#a94442;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-error .form-control:focus{border-color:#843534;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483}.has-error .input-group-addon{color:#a94442;border-color:#a94442;background-color:#f2dede}.has-error .form-control-feedback{color:#a94442}.has-feedback label.sr-only~.form-control-feedback{top:0}.help-block{display:block;margin-top:5px;margin-bottom:10px;color:#737373}.form-horizontal .radio,.form-horizontal .checkbox,.form-horizontal .radio-inline,.form-horizontal .checkbox-inline{margin-top:0;margin-bottom:0;padding-top:7px}.form-horizontal .radio,.form-horizontal .checkbox{min-height:27px}.form-horizontal .form-group{margin-left:-15px;margin-right:-15px}.form-horizontal .form-group:before{content:" ";display:table}.form-horizontal .form-group:after{content:" ";display:table;clear:both}.form-horizontal .has-feedback .form-control-feedback{top:0;right:15px}.btn{display:inline-block;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.btn:focus,.btn:active:focus,.btn.active:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn:hover,.btn:focus{color:#333;text-decoration:none}.btn:active,.btn.active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;pointer-events:none;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.btn-default{color:#333;background-color:#fff;border-color:#ccc}.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{color:#333;background-color:#e6e6e6;border-color:#adadad}.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{background-image:none}.btn-default.disabled,.btn-default.disabled:hover,.btn-default.disabled:focus,.btn-default.disabled:active,.btn-default.disabled.active,.btn-default[disabled],.btn-default[disabled]:hover,.btn-default[disabled]:focus,.btn-default[disabled]:active,.btn-default[disabled].active,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default:hover,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default.active{background-color:#fff;border-color:#ccc}.btn-default .badge{color:#fff;background-color:#333}.btn-primary{color:#fff;background-color:#428bca;border-color:#357ebd}.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{color:#fff;background-color:#3071a9;border-color:#285e8e}.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{background-image:none}.btn-primary.disabled,.btn-primary.disabled:hover,.btn-primary.disabled:focus,.btn-primary.disabled:active,.btn-primary.disabled.active,.btn-primary[disabled],.btn-primary[disabled]:hover,.btn-primary[disabled]:focus,.btn-primary[disabled]:active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary:hover,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary.active{background-color:#428bca;border-color:#357ebd}.btn-primary .badge{color:#428bca;background-color:#fff}.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{color:#fff;background-color:#449d44;border-color:#398439}.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{background-image:none}.btn-success.disabled,.btn-success.disabled:hover,.btn-success.disabled:focus,.btn-success.disabled:active,.btn-success.disabled.active,.btn-success[disabled],.btn-success[disabled]:hover,.btn-success[disabled]:focus,.btn-success[disabled]:active,.btn-success[disabled].active,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success:hover,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success.active{background-color:#5cb85c;border-color:#4cae4c}.btn-success .badge{color:#5cb85c;background-color:#fff}.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{color:#fff;background-color:#31b0d5;border-color:#269abc}.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{background-image:none}.btn-info.disabled,.btn-info.disabled:hover,.btn-info.disabled:focus,.btn-info.disabled:active,.btn-info.disabled.active,.btn-info[disabled],.btn-info[disabled]:hover,.btn-info[disabled]:focus,.btn-info[disabled]:active,.btn-info[disabled].active,fieldset[disabled] .btn-info,fieldset[disabled] .btn-info:hover,fieldset[disabled] .btn-info:focus,fieldset[disabled] .btn-info:active,fieldset[disabled] .btn-info.active{background-color:#5bc0de;border-color:#46b8da}.btn-info .badge{color:#5bc0de;background-color:#fff}.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.btn-warning:hover,.btn-warning:focus,.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{color:#fff;background-color:#ec971f;border-color:#d58512}.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{background-image:none}.btn-warning.disabled,.btn-warning.disabled:hover,.btn-warning.disabled:focus,.btn-warning.disabled:active,.btn-warning.disabled.active,.btn-warning[disabled],.btn-warning[disabled]:hover,.btn-warning[disabled]:focus,.btn-warning[disabled]:active,.btn-warning[disabled].active,fieldset[disabled] .btn-warning,fieldset[disabled] .btn-warning:hover,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:active,fieldset[disabled] .btn-warning.active{background-color:#f0ad4e;border-color:#eea236}.btn-warning .badge{color:#f0ad4e;background-color:#fff}.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{color:#fff;background-color:#c9302c;border-color:#ac2925}.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{background-image:none}.btn-danger.disabled,.btn-danger.disabled:hover,.btn-danger.disabled:focus,.btn-danger.disabled:active,.btn-danger.disabled.active,.btn-danger[disabled],.btn-danger[disabled]:hover,.btn-danger[disabled]:focus,.btn-danger[disabled]:active,.btn-danger[disabled].active,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger:hover,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger.active{background-color:#d9534f;border-color:#d43f3a}.btn-danger .badge{color:#d9534f;background-color:#fff}.btn-link{color:#428bca;font-weight:400;cursor:pointer;border-radius:0}.btn-link,.btn-link:active,.btn-link[disabled],fieldset[disabled] .btn-link{background-color:transparent;box-shadow:none}.btn-link,.btn-link:hover,.btn-link:focus,.btn-link:active{border-color:transparent}.btn-link:hover,.btn-link:focus{color:#2a6496;text-decoration:underline;background-color:transparent}.btn-link[disabled]:hover,.btn-link[disabled]:focus,fieldset[disabled] .btn-link:hover,fieldset[disabled] .btn-link:focus{color:#777;text-decoration:none}.btn-lg{padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.btn-sm{padding:5px 10px}.btn-sm,.btn-xs{font-size:12px;line-height:1.5;border-radius:3px}.btn-xs{padding:1px 5px}.btn-block{display:block;width:100%}.btn-block+.btn-block{margin-top:5px}input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"].btn-block{width:100%}.fade{opacity:0;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{position:relative;height:0;overflow:hidden;transition:height .35s ease}.input-group{position:relative;display:table;border-collapse:separate}.input-group[class*="col-"]{float:none;padding-left:0;padding-right:0}.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}.input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}.input-group-addon:not(:first-child):not(:last-child),.input-group-btn:not(:first-child):not(:last-child),.input-group .form-control:not(:first-child):not(:last-child){border-radius:0}.input-group-addon{white-space:nowrap}.input-group-addon,.input-group-btn{width:1%;vertical-align:middle}.input-group-addon{padding:6px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #ccc;border-radius:4px}.input-group-addon.input-sm,.form-horizontal .form-group-sm .input-group-addon.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.btn{padding:5px 10px;font-size:12px;border-radius:3px}.input-group-addon.input-lg,.form-horizontal .form-group-lg .input-group-addon.form-control,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.btn{padding:10px 16px;font-size:18px;border-radius:6px}.input-group-addon input[type="radio"],.input-group-addon input[type="checkbox"]{margin-top:0}.input-group .form-control:first-child,.input-group-addon:first-child,.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group>.btn,.input-group-btn:first-child>.dropdown-toggle,.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.btn-group:not(:last-child)>.btn{border-bottom-right-radius:0;border-top-right-radius:0}.input-group-addon:first-child{border-right:0}.input-group .form-control:last-child,.input-group-addon:last-child,.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group>.btn,.input-group-btn:last-child>.dropdown-toggle,.input-group-btn:first-child>.btn:not(:first-child),.input-group-btn:first-child>.btn-group:not(:first-child)>.btn{border-bottom-left-radius:0;border-top-left-radius:0}.input-group-addon:last-child{border-left:0}.input-group-btn{font-size:0;white-space:nowrap}.input-group-btn,.input-group-btn>.btn{position:relative}.input-group-btn>.btn+.btn{margin-left:-1px}.input-group-btn>.btn:hover,.input-group-btn>.btn:focus,.input-group-btn>.btn:active{z-index:2}.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group{margin-right:-1px}.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group{margin-left:-1px}.pagination{display:inline-block;padding-left:0;margin:20px 0;border-radius:4px}.pagination>li{display:inline}.pagination>li>a,.pagination>li>span{position:relative;float:left;padding:6px 12px;line-height:1.4285714;text-decoration:none;color:#428bca;background-color:#fff;border:1px solid #ddd;margin-left:-1px}.pagination>li:first-child>a,.pagination>li:first-child>span{margin-left:0;border-bottom-left-radius:4px;border-top-left-radius:4px}.pagination>li:last-child>a,.pagination>li:last-child>span{border-bottom-right-radius:4px;border-top-right-radius:4px}.pagination>li>a:hover,.pagination>li>a:focus,.pagination>li>span:hover,.pagination>li>span:focus{color:#2a6496;background-color:#eee;border-color:#ddd}.pagination>.active>a,.pagination>.active>a:hover,.pagination>.active>a:focus,.pagination>.active>span,.pagination>.active>span:hover,.pagination>.active>span:focus{z-index:2;color:#fff;background-color:#428bca;border-color:#428bca;cursor:default}.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus{color:#777;background-color:#fff;border-color:#ddd;cursor:not-allowed}.pagination-lg>li>a,.pagination-lg>li>span{padding:10px 16px;font-size:18px}.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span{border-bottom-left-radius:6px;border-top-left-radius:6px}.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span{border-bottom-right-radius:6px;border-top-right-radius:6px}.pagination-sm>li>a,.pagination-sm>li>span{padding:5px 10px;font-size:12px}.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span{border-bottom-left-radius:3px;border-top-left-radius:3px}.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span{border-bottom-right-radius:3px;border-top-right-radius:3px}.close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer;opacity:.5;filter:alpha(opacity=50)}button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}.modal-open,.modal{overflow:hidden}.modal{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;-webkit-overflow-scrolling:touch;outline:0}.modal.fade .modal-dialog{transform:translate3d(0,-25%,0);transition:transform .3s ease-out}.modal.in .modal-dialog{transform:translate3d(0,0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,.5);background-clip:padding-box;outline:0}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}.modal-backdrop.fade{opacity:0;filter:alpha(opacity=0)}.modal-backdrop.in{opacity:.5;filter:alpha(opacity=50)}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5;min-height:16.4285714px}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.4285714}.modal-body{position:relative;padding:15px}.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer:before,.modal-footer:after{content:" ";display:table}.modal-footer:after{clear:both}.modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right!important}.pull-left{float:left!important}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}.affix{position:fixed;transform:translate3d(0,0,0)}.hljs{display:block;overflow-x:auto;padding:.5em;background:#002b36;color:#839496;-webkit-text-size-adjust:none}.hljs-comment,.hljs-template_comment,.diff .hljs-header,.hljs-doctype,.hljs-pi,.lisp .hljs-string,.hljs-javadoc{color:#586e75}.hljs-keyword,.hljs-winutils,.method,.hljs-addition,.css .hljs-tag,.hljs-request,.hljs-status,.nginx .hljs-title{color:#859900}.hljs-number,.hljs-command,.hljs-string,.hljs-tag .hljs-value,.hljs-rules .hljs-value,.hljs-phpdoc,.hljs-dartdoc,.tex .hljs-formula,.hljs-regexp,.hljs-hexcolor,.hljs-link_url{color:#2aa198}.hljs-title,.hljs-localvars,.hljs-chunk,.hljs-decorator,.hljs-built_in,.hljs-identifier,.vhdl .hljs-literal,.hljs-id,.css .hljs-function{color:#268bd2}.hljs-attribute,.hljs-variable,.lisp .hljs-body,.smalltalk .hljs-number,.hljs-constant,.hljs-class .hljs-title,.hljs-parent,.hljs-type,.hljs-link_reference{color:#b58900}.hljs-preprocessor,.hljs-preprocessor .hljs-keyword,.hljs-pragma,.hljs-shebang,.hljs-symbol,.hljs-symbol .hljs-string,.diff .hljs-change,.hljs-special,.hljs-attr_selector,.hljs-subst,.hljs-cdata,.css .hljs-pseudo,.hljs-header{color:#cb4b16}.hljs-deletion,.hljs-important{color:#dc322f}.hljs-link_label{color:#6c71c4}.tex .hljs-formula{background:#073642}*,*:before,*:after{box-sizing:border-box}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}images{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd{font-size:1em}code,kbd,pre,samp{font-family:monospace,monospace}samp{font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;margin-right:5px}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}.debug{background-color:#ffc0cb!important}.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ir{background-color:transparent;border:0;overflow:hidden}.ir::before{content:'';display:block;height:150%;width:0}html{font-size:.875em;background:#fff;color:#373D49}html,body{font-family:Georgia,Cambria,serif;height:100%}body{font-size:1rem;font-weight:400;line-height:2rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}li{font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-left:1rem}li>ul,li>ol{margin-bottom:0}p{padding-top:.66001rem;font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-top:0}p,pre{margin-bottom:1.33999rem}pre{font-size:1rem;padding:.66001rem 9.5px 9.5px;line-height:2rem;background:linear-gradient(to bottom,#fff 0,#fff .75rem,#f5f7fa .75rem,#f5f7fa 2.75rem,#fff 2.75rem,#fff 4rem);background-size:100% 4rem;border-color:#D3DAEA}blockquote{margin:0}blockquote p{font-size:1rem;margin-bottom:.33999rem;font-style:italic;padding:.66001rem 1rem 1rem;border-left:3px solid #A0AABF}th,td{padding:12px}h1,h2,h3,h4,h5,h6{font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-feature-settings:'dlig' 1,'liga' 1,'lnum' 1,'kern' 1;font-style:normal;font-weight:600;margin-top:0}h1{line-height:3rem;font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h2,h3{line-height:3rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}a{cursor:pointer;color:#35D7BB;text-decoration:none}a:hover,a:focus{border-bottom-color:#35D7BB;color:#dff9f4}img{height:auto;max-width:100%}dt{font-style:italic;font-weight:600}.g{display:block}.g:after{clear:both;content:'';display:table}.g-b{float:left;margin:0;width:100%}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--center{display:block;float:none;margin:0 auto}.g-b--right{float:right}.g-b--1of1{width:100%}.g-b--1of2,.g-b--2of4,.g-b--3of6,.g-b--4of8,.g-b--5of10,.g-b--6of12{width:50%}.g-b--1of3,.g-b--2of6,.g-b--4of12{width:33.333%}.g-b--2of3,.g-b--4of6,.g-b--8of12{width:66.666%}.g-b--1of4,.g-b--2of8,.g-b--3of12{width:25%}.g-b--3of4,.g-b--6of8,.g-b--9of12{width:75%}.g-b--1of5,.g-b--2of10{width:20%}.g-b--2of5,.g-b--4of10{width:40%}.g-b--3of5,.g-b--6of10{width:60%}.g-b--4of5,.g-b--8of10{width:80%}.g-b--1of6,.g-b--2of12{width:16.666%}.g-b--5of6,.g-b--10of12{width:83.333%}.g-b--1of8{width:12.5%}.g-b--3of8{width:37.5%}.g-b--5of8{width:62.5%}.g-b--7of8{width:87.5%}.g-b--1of10{width:10%}.g-b--3of10{width:30%}.g-b--7of10{width:70%}.g-b--9of10{width:90%}.g-b--1of12{width:8.333%}.g-b--5of12{width:41.666%}.g-b--7of12{width:58.333%}.g-b--11of12{width:91.666%}.g-b--push--1of1{margin-left:100%}.g-b--push--1of2,.g-b--push--2of4,.g-b--push--3of6,.g-b--push--4of8,.g-b--push--5of10,.g-b--push--6of12{margin-left:50%}.g-b--push--1of3,.g-b--push--2of6,.g-b--push--4of12{margin-left:33.333%}.g-b--push--2of3,.g-b--push--4of6,.g-b--push--8of12{margin-left:66.666%}.g-b--push--1of4,.g-b--push--2of8,.g-b--push--3of12{margin-left:25%}.g-b--push--3of4,.g-b--push--6of8,.g-b--push--9of12{margin-left:75%}.g-b--push--1of5,.g-b--push--2of10{margin-left:20%}.g-b--push--2of5,.g-b--push--4of10{margin-left:40%}.g-b--push--3of5,.g-b--push--6of10{margin-left:60%}.g-b--push--4of5,.g-b--push--8of10{margin-left:80%}.g-b--push--1of6,.g-b--push--2of12{margin-left:16.666%}.g-b--push--5of6,.g-b--push--10of12{margin-left:83.333%}.g-b--push--1of8{margin-left:12.5%}.g-b--push--3of8{margin-left:37.5%}.g-b--push--5of8{margin-left:62.5%}.g-b--push--7of8{margin-left:87.5%}.g-b--push--1of10{margin-left:10%}.g-b--push--3of10{margin-left:30%}.g-b--push--7of10{margin-left:70%}.g-b--push--9of10{margin-left:90%}.g-b--push--1of12{margin-left:8.333%}.g-b--push--5of12{margin-left:41.666%}.g-b--push--7of12{margin-left:58.333%}.g-b--push--11of12{margin-left:91.666%}.g-b--pull--1of1{margin-right:100%}.g-b--pull--1of2,.g-b--pull--2of4,.g-b--pull--3of6,.g-b--pull--4of8,.g-b--pull--5of10,.g-b--pull--6of12{margin-right:50%}.g-b--pull--1of3,.g-b--pull--2of6,.g-b--pull--4of12{margin-right:33.333%}.g-b--pull--2of3,.g-b--pull--4of6,.g-b--pull--8of12{margin-right:66.666%}.g-b--pull--1of4,.g-b--pull--2of8,.g-b--pull--3of12{margin-right:25%}.g-b--pull--3of4,.g-b--pull--6of8,.g-b--pull--9of12{margin-right:75%}.g-b--pull--1of5,.g-b--pull--2of10{margin-right:20%}.g-b--pull--2of5,.g-b--pull--4of10{margin-right:40%}.g-b--pull--3of5,.g-b--pull--6of10{margin-right:60%}.g-b--pull--4of5,.g-b--pull--8of10{margin-right:80%}.g-b--pull--1of6,.g-b--pull--2of12{margin-right:16.666%}.g-b--pull--5of6,.g-b--pull--10of12{margin-right:83.333%}.g-b--pull--1of8{margin-right:12.5%}.g-b--pull--3of8{margin-right:37.5%}.g-b--pull--5of8{margin-right:62.5%}.g-b--pull--7of8{margin-right:87.5%}.g-b--pull--1of10{margin-right:10%}.g-b--pull--3of10{margin-right:30%}.g-b--pull--7of10{margin-right:70%}.g-b--pull--9of10{margin-right:90%}.g-b--pull--1of12{margin-right:8.333%}.g-b--pull--5of12{margin-right:41.666%}.g-b--pull--7of12{margin-right:58.333%}.g-b--pull--11of12{margin-right:91.666%}.splashscreen{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#373D49;z-index:22}.splashscreen-dillinger{width:260px;height:auto;display:block;margin:0 auto;padding-bottom:3rem}.splashscreen p{font-size:1.25rem;padding-top:.56251rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;text-align:center;max-width:500px;margin:0 auto;color:#FFF}.sp-center{position:relative;transform:translateY(-50%);top:50%}.open-menu>.wrapper{overflow-x:hidden}.page{margin:0 auto;position:relative;top:0;left:0;width:100%;height:100%;z-index:2;transition:all .25s ease-in-out;background-color:#fff;padding-top:51px;will-change:left}.open-menu .page{left:270px}.title{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;color:#A0AABF;letter-spacing:1px;text-transform:uppercase;padding-left:16px;padding-right:16px;margin-top:1rem}.split-preview .title{padding-left:0}.title-document{line-height:1rem;font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem;font-weight:400;font-family:"Ubuntu Mono",Monaco;color:#373D49;padding-left:16px;padding-right:16px;width:80%;min-width:300px;outline:0;border:none}.icon{display:block;margin:0 auto;width:36px;height:36px;border-radius:3px;text-align:center}.icon svg{display:inline-block;margin-left:auto;margin-right:auto}.icon-preview{background-color:#373D49;line-height:40px}.icon-preview svg{width:19px;height:12px}.icon-settings{background-color:#373D49;line-height:44px}.icon-settings svg{width:18px;height:18px}.icon-link{width:16px;height:16px;line-height:1;margin-right:24px;text-align:right}.navbar{background-color:#373D49;height:51px;width:100%;position:fixed;top:0;left:0;z-index:6;transition:all .25s ease-in-out;will-change:left}.navbar:after{content:"";display:table;clear:both}.open-menu .navbar{left:270px}.navbar-brand{float:left;margin:0 0 0 24px;padding:0;line-height:42px}.navbar-brand svg{width:85px;height:11px}.nav-left{float:left}.nav-right{float:right}.nav-sidebar{width:100%}.menu{list-style:none;margin:0;padding:0}.menu a{border:0;color:#A0AABF;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;outline:none;text-transform:uppercase}.menu a:hover{color:#35D7BB}.menu .menu-item{border:0;display:none;float:left;margin:0;position:relative}.menu .menu-item>a{display:block;font-size:12px;height:51px;letter-spacing:1px;line-height:51px;padding:0 24px}.menu .menu-item--settings,.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar,.menu .menu-item--link-unlink.in-sidebar,.menu .menu-item--documents.in-sidebar{display:block}.menu .menu-item--documents{padding-bottom:1rem}.menu .menu-item.open>a{background-color:#1D212A}.menu .menu-item-icon>a{height:auto;padding:0}.menu .menu-item-icon:hover>a{background-color:transparent}.menu .menu-link.open i{background-color:#1D212A}.menu .menu-link.open g{fill:#35D7BB}.menu .menu-link-preview,.menu .menu-link-settings{margin-top:8px;width:51px}.menu-sidebar{width:100%}.menu-sidebar .menu-item{float:none;margin-bottom:1px;width:100%}.menu-sidebar .menu-item.open>a{background-color:#373D49}.menu-sidebar .open .caret{transform:rotate(180deg)}.menu-sidebar>.menu-item:hover .dropdown a,.menu-sidebar>.menu-item:hover .settings a{background-color:transparent}.menu-sidebar .menu-link{background-color:#373D49;font-weight:600}.menu-sidebar .menu-link:after{content:"";display:table;clear:both}.menu-sidebar .menu-link>span{float:left}.menu-sidebar .menu-link>.caret{float:right;text-align:right;top:22px}.menu-sidebar .dropdown,.menu-sidebar .settings{background-color:transparent;position:static;width:100%}.dropdown{position:absolute;right:0;top:51px;width:188px}.dropdown,.settings{display:none;background-color:#1D212A}.dropdown{padding:0}.dropdown,.settings,.sidebar-list{list-style:none;margin:0}.sidebar-list{padding:0}.dropdown li{margin:32px 0;padding:0 0 0 32px}.dropdown li,.settings li{line-height:1}.sidebar-list li{line-height:1;margin:32px 0;padding:0 0 0 32px}.dropdown a{color:#D0D6E2}.dropdown a,.settings a,.sidebar-list a{display:block;text-transform:none}.sidebar-list a{color:#D0D6E2}.dropdown a:after,.settings a:after,.sidebar-list a:after{content:"";display:table;clear:both}.dropdown .icon,.settings .icon,.sidebar-list .icon{float:right}.open .dropdown,.open .settings,.open .sidebar-list{display:block}.open .dropdown.collapse,.open .collapse.settings,.open .sidebar-list.collapse{display:none}.open .dropdown.collapse.in,.open .collapse.in.settings,.open .sidebar-list.collapse.in{display:block}.dropdown .unlinked .icon,.settings .unlinked .icon,.sidebar-list .unlinked .icon{opacity:.3}.dropdown.documents li,.documents.settings li,.sidebar-list.documents li{background-image:url("../img/icons/file.svg");background-position:240px center;background-repeat:no-repeat;background-size:14px 16px;padding:3px 32px}.dropdown.documents li.octocat,.documents.settings li.octocat,.sidebar-list.documents li.octocat{background-image:url("../img/icons/octocat.svg");background-position:234px center;background-size:24px 24px}.dropdown.documents li:last-child,.documents.settings li:last-child,.sidebar-list.documents li:last-child{margin-bottom:1rem}.dropdown.documents li.active a,.documents.settings li.active a,.sidebar-list.documents li.active a{color:#35D7BB}.settings{position:fixed;top:67px;right:16px;border-radius:3px;width:288px;background-color:#373D49;padding:16px;z-index:7}.show-settings .settings{display:block}.settings .has-checkbox{float:left}.settings form{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.settings input{width:20%}.settings a{font-size:1.25rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;line-height:28px;color:#D0D6E2}.settings a:after{content:"";display:table;clear:both}.settings a:hover{color:#35D7BB}.settings li{border-bottom:1px solid #4F535B;margin:0;padding:16px 0}.settings li:last-child{border-bottom:none}.brand{border:none;display:block}.brand:hover g{fill:#35D7BB}.toggle{display:block;float:left;height:16px;padding:25px 16px 26px;width:40px}.toggle span:after,.toggle span:before{content:'';left:0;position:absolute;top:-6px}.toggle span:after{top:6px}.toggle span{display:block;position:relative}.toggle span,.toggle span:after,.toggle span:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#D3DAEA;height:2px;transition:all .3s;width:20px}.open-menu .toggle span{background-color:transparent}.open-menu .toggle span:before{transform:rotate(45deg) translate(3px,3px)}.open-menu .toggle span:after{transform:rotate(-45deg) translate(5px,-6px)}.caret{display:inline-block;width:0;height:0;margin-left:6px;vertical-align:middle;position:relative;top:-1px;border-top:4px solid;border-right:4px solid transparent;border-left:4px solid transparent}.sidebar{overflow:auto;height:100%;padding-right:15px;padding-bottom:15px;width:285px}.sidebar-wrapper{-webkit-overflow-scrolling:touch;background-color:#2B2F36;left:0;height:100%;overflow-y:hidden;position:fixed;top:0;width:285px;z-index:1}.sidebar-branding{width:160px;padding:0;margin:16px auto}.header{border-bottom:1px solid #E8E8E8;position:relative}.words,.characters{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;z-index:5;position:absolute;right:16px;top:0}.words span,.characters span{color:#A0AABF}.words .counter,.characters .counter{color:#000}.words+.characters{top:22px}.mr10{margin-right:10px}.btn{text-align:center;display:inline-block;width:100%;text-transform:uppercase;font-weight:600;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;text-shadow:0 1px 0 #1b8b77;padding:16px 24px;background-color:#35D7BB;border-radius:3px;margin:0 auto 16px;line-height:1;color:#fff;transition:all .15s linear;-webkit-font-smoothing:antialiased}.btn--new,.btn--save{display:block;width:238px}.btn--new:hover,.btn--new:focus,.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 3px #24b59c;text-shadow:0 1px 0 #24b59c}.btn--save{background-color:#4A5261;text-shadow:0 1px 1px #1e2127}.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 5px #08090a;text-shadow:none}.btn--delete{display:block;width:238px;background-color:transparent;font-size:12px;text-shadow:none}.btn--delete:hover,.btn--delete:focus{color:#fff;border-bottom-color:transparent;text-shadow:0 1px 0 #08090a;opacity:.8}.btn--delete-modal,.btn--ok,.btn--close{border-top:0;background-color:#4A5261;text-shadow:0 1px 0 #08090a;margin:0}.btn--delete-modal:hover,.btn--delete-modal:focus,.btn--ok:hover,.btn--ok:focus,.btn--close:hover,.btn--close:focus{color:#fff;background-color:#292d36;text-shadow:none}.btn--delete-modal{display:inline;width:auto}.overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(55,61,73,.8);transition:all .25s ease-in-out;transition-timing-function:ease-out;will-change:left,opacity,visibility;z-index:5;opacity:0;visibility:hidden}.show-settings .overlay{visibility:visible;opacity:1}.switch{float:right;line-height:1}.switch input{display:none}.switch small{display:inline-block;cursor:pointer;padding:0 24px 0 0;transition:all ease .2s;background-color:#2B2F36;border-color:#2B2F36}.switch small,.switch small:before{border-radius:30px;box-shadow:inset 0 0 2px 0 #14171F}.switch small:before{display:block;content:'';width:28px;height:28px;background:#fff}.switch.checked small{padding-right:0;padding-left:24px;background-color:#35D7BB;box-shadow:none}.modal--dillinger.about .modal-dialog{font-size:1.25rem;max-width:500px}.modal--dillinger.scope .modal-dialog{max-width:300px;margin:5rem auto}.modal--dillinger .modal-dialog{max-width:600px;width:auto;margin:5rem auto}.modal--dillinger .modal-content{background:#373D49;border-radius:3px;box-shadow:0 2px 5px 0 #2C3B59;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;padding:2rem}.modal--dillinger ul{list-style-type:disc;margin:1rem 0;padding:0 0 0 1rem}.modal--dillinger li{padding:0;margin:0}.modal--dillinger .modal-header{border:0;padding:0}.modal--dillinger .modal-body{padding:0}.modal--dillinger .modal-footer{border:0;padding:0}.modal--dillinger .close{color:#fff;opacity:1}.modal-backdrop{background-color:#373D49}.pagination--dillinger{padding:0!important;margin:1.5rem 0!important;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:stretch;align-content:stretch}.pagination--dillinger li{display:-ms-flexbox;display:flex;-ms-flex-positive:1;flex-grow:1;text-align:center}.pagination--dillinger li:first-child>a,.pagination--dillinger li.disabled>a,.pagination--dillinger li.disabled>a:hover,.pagination--dillinger li.disabled>a:focus,.pagination--dillinger li>a{background-color:transparent;border-color:#4F535B;border-right-color:transparent}.pagination--dillinger li.active>a,.pagination--dillinger li.active>a:hover,.pagination--dillinger li.active>a:focus{border-color:#4A5261;background-color:#4A5261;color:#fff}.pagination--dillinger li>a{float:none;color:#fff;width:100%;display:block;text-align:center;margin:0;border-right-color:transparent;padding:6px}.pagination--dillinger li>a:hover,.pagination--dillinger li>a:focus{border-color:#35D7BB;background-color:#35D7BB;color:#fff}.pagination--dillinger li:last-child a{border-color:#4F535B}.pagination--dillinger li:first-child a{border-right-color:transparent}.diNotify{position:absolute;z-index:9999;left:0;right:0;top:0;margin:0 auto;max-width:400px;text-align:center;transition:top .5s ease-in-out,opacity .5s ease-in-out;visibility:hidden}.diNotify-body{-webkit-font-smoothing:antialiased;background-color:#35D7BB;background:#666E7F;border-radius:3px;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;overflow:hidden;padding:1rem 2rem .5rem;display:-ms-flexbox;display:flex;-ms-flex-align:baseline;align-items:baseline;-ms-flex-pack:center;justify-content:center}.diNotify-icon{display:block;width:16px;height:16px;line-height:16px;position:relative;top:3px}.diNotify-message{padding-left:1rem}.zen-wrapper{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:10;background-color:#FFF;opacity:0;transition:opacity .25s ease-in-out}.zen-wrapper.on{opacity:1}.enter-zen-mode{background-image:url("../img/icons/enter-zen.svg");right:.5rem;top:.313rem;display:none}.enter-zen-mode,.close-zen-mode{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute}.close-zen-mode{background-image:url("../img/icons/exit-zen.svg");right:1rem;top:1rem}.zen-page{position:relative;top:0;bottom:0;z-index:11;height:100%;width:100%}#zen{font-size:1.25rem;width:300px;height:80%;margin:0 auto;position:relative;top:10%}#zen:before,#zen:after{content:"";position:absolute;height:10%;width:100%;z-index:12;pointer-events:none}#preview .table{width:auto}.ui-resizable{position:relative}.ui-resizable-handle{position:absolute;font-size:.1px;z-index:99999;display:block}.ui-resizable-e{background-color:#666;border-right:8px solid #e8e8e8;border-left:1px solid #222;width:10px;z-index:88!important;position:relative}.ui-resizable-e:after{content:"-";display:block;position:absolute;top:calc(50% - 16px);left:0;height:25px;width:2px;background-color:rgba(0,0,0,.4);margin:3px}#editor{cursor:ew-resize;position:relative;z-index:auto}.profile-pic{float:left;width:250px}#_default_ a::before{color:#A0AABF}#_default_ img{display:none}#_default_ #_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ .default-ad{display:none}#_default_ ._default_{display:block}#_default_ a{color:#35d7bb;text-decoration:none}#_default_ a:hover{color:#8ae8d8}#_default_ .default-image{display:none}#_default_ .default-title:after{content:" — "}#_default_ .default-title,#_default_ .default-text,#_default_ .default-description{display:inline}#_default_ .default-title{position:relative;font-weight:600;display:none}#_default_ a:before{position:relative;top:0;padding:5px;color:#a0aabf;content:"Ad";text-transform:uppercase;font-size:8px;font-family:Verdana,sans-serif}#_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ ._default_{display:block;font-size:.75rem;height:51px;letter-spacing:1px;line-height:1rem;padding:18px 24px}body{max-width:1024px;margin:0 auto;overflow:auto;padding:2%}.split{overflow:scroll;padding:0!important;-webkit-overflow-scrolling:touch}.split-editor{padding-left:0;padding-right:0;position:relative;z-index:3}.show-preview .split-editor{display:none}.split-preview{background-color:#fff;display:none;top:0;position:relative;z-index:4}.show-preview .split-preview{display:block}#editor{font-size:1rem;font-family:"Ubuntu Mono",Monaco;font-weight:400;line-height:2rem;width:100%;height:100%}#editor .ace_gutter{-webkit-font-smoothing:antialiased}.editor-header{width:50%;float:left;border-bottom:1px solid #E8E8E8;position:relative}.editor-header--first{border-right:1px solid #E8E8E8}.editor-header .title{display:inline-block}.preview-html{padding:15px}.preview-html a{color:#A0AABF;text-decoration:underline}.preview-src{white-space:normal}.preview-mode-toggle-src{background-image:url("../img/icons/code.svg")}.preview-mode-toggle-src,.preview-mode-toggle-html{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute;right:.5rem;top:.5rem;display:none}.preview-mode-toggle-html{background-image:url("../img/icons/eye.svg")}.sr-only{visibility:hidden;text-overflow:110%;overflow:hidden;top:-100px;position:absolute}.mnone{margin:0!important}@media screen and (min-width:27.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--m1of1{width:100%}.g-b--m1of2,.g-b--m2of4,.g-b--m3of6,.g-b--m4of8,.g-b--m5of10,.g-b--m6of12{width:50%}.g-b--m1of3,.g-b--m2of6,.g-b--m4of12{width:33.333%}.g-b--m2of3,.g-b--m4of6,.g-b--m8of12{width:66.666%}.g-b--m1of4,.g-b--m2of8,.g-b--m3of12{width:25%}.g-b--m3of4,.g-b--m6of8,.g-b--m9of12{width:75%}.g-b--m1of5,.g-b--m2of10{width:20%}.g-b--m2of5,.g-b--m4of10{width:40%}.g-b--m3of5,.g-b--m6of10{width:60%}.g-b--m4of5,.g-b--m8of10{width:80%}.g-b--m1of6,.g-b--m2of12{width:16.666%}.g-b--m5of6,.g-b--m10of12{width:83.333%}.g-b--m1of8{width:12.5%}.g-b--m3of8{width:37.5%}.g-b--m5of8{width:62.5%}.g-b--m7of8{width:87.5%}.g-b--m1of10{width:10%}.g-b--m3of10{width:30%}.g-b--m7of10{width:70%}.g-b--m9of10{width:90%}.g-b--m1of12{width:8.333%}.g-b--m5of12{width:41.666%}.g-b--m7of12{width:58.333%}.g-b--m11of12{width:91.666%}.g-b--push--m1of1{margin-left:100%}.g-b--push--m1of2,.g-b--push--m2of4,.g-b--push--m3of6,.g-b--push--m4of8,.g-b--push--m5of10,.g-b--push--m6of12{margin-left:50%}.g-b--push--m1of3,.g-b--push--m2of6,.g-b--push--m4of12{margin-left:33.333%}.g-b--push--m2of3,.g-b--push--m4of6,.g-b--push--m8of12{margin-left:66.666%}.g-b--push--m1of4,.g-b--push--m2of8,.g-b--push--m3of12{margin-left:25%}.g-b--push--m3of4,.g-b--push--m6of8,.g-b--push--m9of12{margin-left:75%}.g-b--push--m1of5,.g-b--push--m2of10{margin-left:20%}.g-b--push--m2of5,.g-b--push--m4of10{margin-left:40%}.g-b--push--m3of5,.g-b--push--m6of10{margin-left:60%}.g-b--push--m4of5,.g-b--push--m8of10{margin-left:80%}.g-b--push--m1of6,.g-b--push--m2of12{margin-left:16.666%}.g-b--push--m5of6,.g-b--push--m10of12{margin-left:83.333%}.g-b--push--m1of8{margin-left:12.5%}.g-b--push--m3of8{margin-left:37.5%}.g-b--push--m5of8{margin-left:62.5%}.g-b--push--m7of8{margin-left:87.5%}.g-b--push--m1of10{margin-left:10%}.g-b--push--m3of10{margin-left:30%}.g-b--push--m7of10{margin-left:70%}.g-b--push--m9of10{margin-left:90%}.g-b--push--m1of12{margin-left:8.333%}.g-b--push--m5of12{margin-left:41.666%}.g-b--push--m7of12{margin-left:58.333%}.g-b--push--m11of12{margin-left:91.666%}.g-b--pull--m1of1{margin-right:100%}.g-b--pull--m1of2,.g-b--pull--m2of4,.g-b--pull--m3of6,.g-b--pull--m4of8,.g-b--pull--m5of10,.g-b--pull--m6of12{margin-right:50%}.g-b--pull--m1of3,.g-b--pull--m2of6,.g-b--pull--m4of12{margin-right:33.333%}.g-b--pull--m2of3,.g-b--pull--m4of6,.g-b--pull--m8of12{margin-right:66.666%}.g-b--pull--m1of4,.g-b--pull--m2of8,.g-b--pull--m3of12{margin-right:25%}.g-b--pull--m3of4,.g-b--pull--m6of8,.g-b--pull--m9of12{margin-right:75%}.g-b--pull--m1of5,.g-b--pull--m2of10{margin-right:20%}.g-b--pull--m2of5,.g-b--pull--m4of10{margin-right:40%}.g-b--pull--m3of5,.g-b--pull--m6of10{margin-right:60%}.g-b--pull--m4of5,.g-b--pull--m8of10{margin-right:80%}.g-b--pull--m1of6,.g-b--pull--m2of12{margin-right:16.666%}.g-b--pull--m5of6,.g-b--pull--m10of12{margin-right:83.333%}.g-b--pull--m1of8{margin-right:12.5%}.g-b--pull--m3of8{margin-right:37.5%}.g-b--pull--m5of8{margin-right:62.5%}.g-b--pull--m7of8{margin-right:87.5%}.g-b--pull--m1of10{margin-right:10%}.g-b--pull--m3of10{margin-right:30%}.g-b--pull--m7of10{margin-right:70%}.g-b--pull--m9of10{margin-right:90%}.g-b--pull--m1of12{margin-right:8.333%}.g-b--pull--m5of12{margin-right:41.666%}.g-b--pull--m7of12{margin-right:58.333%}.g-b--pull--m11of12{margin-right:91.666%}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:400px}#editor{font-size:1rem}}@media screen and (min-width:46.25em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--t1of1{width:100%}.g-b--t1of2,.g-b--t2of4,.g-b--t3of6,.g-b--t4of8,.g-b--t5of10,.g-b--t6of12{width:50%}.g-b--t1of3,.g-b--t2of6,.g-b--t4of12{width:33.333%}.g-b--t2of3,.g-b--t4of6,.g-b--t8of12{width:66.666%}.g-b--t1of4,.g-b--t2of8,.g-b--t3of12{width:25%}.g-b--t3of4,.g-b--t6of8,.g-b--t9of12{width:75%}.g-b--t1of5,.g-b--t2of10{width:20%}.g-b--t2of5,.g-b--t4of10{width:40%}.g-b--t3of5,.g-b--t6of10{width:60%}.g-b--t4of5,.g-b--t8of10{width:80%}.g-b--t1of6,.g-b--t2of12{width:16.666%}.g-b--t5of6,.g-b--t10of12{width:83.333%}.g-b--t1of8{width:12.5%}.g-b--t3of8{width:37.5%}.g-b--t5of8{width:62.5%}.g-b--t7of8{width:87.5%}.g-b--t1of10{width:10%}.g-b--t3of10{width:30%}.g-b--t7of10{width:70%}.g-b--t9of10{width:90%}.g-b--t1of12{width:8.333%}.g-b--t5of12{width:41.666%}.g-b--t7of12{width:58.333%}.g-b--t11of12{width:91.666%}.g-b--push--t1of1{margin-left:100%}.g-b--push--t1of2,.g-b--push--t2of4,.g-b--push--t3of6,.g-b--push--t4of8,.g-b--push--t5of10,.g-b--push--t6of12{margin-left:50%}.g-b--push--t1of3,.g-b--push--t2of6,.g-b--push--t4of12{margin-left:33.333%}.g-b--push--t2of3,.g-b--push--t4of6,.g-b--push--t8of12{margin-left:66.666%}.g-b--push--t1of4,.g-b--push--t2of8,.g-b--push--t3of12{margin-left:25%}.g-b--push--t3of4,.g-b--push--t6of8,.g-b--push--t9of12{margin-left:75%}.g-b--push--t1of5,.g-b--push--t2of10{margin-left:20%}.g-b--push--t2of5,.g-b--push--t4of10{margin-left:40%}.g-b--push--t3of5,.g-b--push--t6of10{margin-left:60%}.g-b--push--t4of5,.g-b--push--t8of10{margin-left:80%}.g-b--push--t1of6,.g-b--push--t2of12{margin-left:16.666%}.g-b--push--t5of6,.g-b--push--t10of12{margin-left:83.333%}.g-b--push--t1of8{margin-left:12.5%}.g-b--push--t3of8{margin-left:37.5%}.g-b--push--t5of8{margin-left:62.5%}.g-b--push--t7of8{margin-left:87.5%}.g-b--push--t1of10{margin-left:10%}.g-b--push--t3of10{margin-left:30%}.g-b--push--t7of10{margin-left:70%}.g-b--push--t9of10{margin-left:90%}.g-b--push--t1of12{margin-left:8.333%}.g-b--push--t5of12{margin-left:41.666%}.g-b--push--t7of12{margin-left:58.333%}.g-b--push--t11of12{margin-left:91.666%}.g-b--pull--t1of1{margin-right:100%}.g-b--pull--t1of2,.g-b--pull--t2of4,.g-b--pull--t3of6,.g-b--pull--t4of8,.g-b--pull--t5of10,.g-b--pull--t6of12{margin-right:50%}.g-b--pull--t1of3,.g-b--pull--t2of6,.g-b--pull--t4of12{margin-right:33.333%}.g-b--pull--t2of3,.g-b--pull--t4of6,.g-b--pull--t8of12{margin-right:66.666%}.g-b--pull--t1of4,.g-b--pull--t2of8,.g-b--pull--t3of12{margin-right:25%}.g-b--pull--t3of4,.g-b--pull--t6of8,.g-b--pull--t9of12{margin-right:75%}.g-b--pull--t1of5,.g-b--pull--t2of10{margin-right:20%}.g-b--pull--t2of5,.g-b--pull--t4of10{margin-right:40%}.g-b--pull--t3of5,.g-b--pull--t6of10{margin-right:60%}.g-b--pull--t4of5,.g-b--pull--t8of10{margin-right:80%}.g-b--pull--t1of6,.g-b--pull--t2of12{margin-right:16.666%}.g-b--pull--t5of6,.g-b--pull--t10of12{margin-right:83.333%}.g-b--pull--t1of8{margin-right:12.5%}.g-b--pull--t3of8{margin-right:37.5%}.g-b--pull--t5of8{margin-right:62.5%}.g-b--pull--t7of8{margin-right:87.5%}.g-b--pull--t1of10{margin-right:10%}.g-b--pull--t3of10{margin-right:30%}.g-b--pull--t7of10{margin-right:70%}.g-b--pull--t9of10{margin-right:90%}.g-b--pull--t1of12{margin-right:8.333%}.g-b--pull--t5of12{margin-right:41.666%}.g-b--pull--t7of12{margin-right:58.333%}.g-b--pull--t11of12{margin-right:91.666%}.splashscreen-dillinger{width:500px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--save-to,.menu .menu-item--import-from{display:block}.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog{font-size:1.25rem}.enter-zen-mode{display:block}.close-zen-mode{right:3rem;top:3rem}#zen{font-size:1.25rem;width:500px}.split-editor{border-right:1px solid #E8E8E8;float:left;padding-right:16px;width:50%}.show-preview .split-editor{display:block}.split-preview{display:block;float:right;position:relative;top:0;width:50%}#editor{font-size:1rem}.preview-mode-toggle-src,.preview-mode-toggle-html{display:block}}@media screen and (min-width:62.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--d1of1{width:100%}.g-b--d1of2,.g-b--d2of4,.g-b--d3of6,.g-b--d4of8,.g-b--d5of10,.g-b--d6of12{width:50%}.g-b--d1of3,.g-b--d2of6,.g-b--d4of12{width:33.333%}.g-b--d2of3,.g-b--d4of6,.g-b--d8of12{width:66.666%}.g-b--d1of4,.g-b--d2of8,.g-b--d3of12{width:25%}.g-b--d3of4,.g-b--d6of8,.g-b--d9of12{width:75%}.g-b--d1of5,.g-b--d2of10{width:20%}.g-b--d2of5,.g-b--d4of10{width:40%}.g-b--d3of5,.g-b--d6of10{width:60%}.g-b--d4of5,.g-b--d8of10{width:80%}.g-b--d1of6,.g-b--d2of12{width:16.666%}.g-b--d5of6,.g-b--d10of12{width:83.333%}.g-b--d1of8{width:12.5%}.g-b--d3of8{width:37.5%}.g-b--d5of8{width:62.5%}.g-b--d7of8{width:87.5%}.g-b--d1of10{width:10%}.g-b--d3of10{width:30%}.g-b--d7of10{width:70%}.g-b--d9of10{width:90%}.g-b--d1of12{width:8.333%}.g-b--d5of12{width:41.666%}.g-b--d7of12{width:58.333%}.g-b--d11of12{width:91.666%}.g-b--push--d1of1{margin-left:100%}.g-b--push--d1of2,.g-b--push--d2of4,.g-b--push--d3of6,.g-b--push--d4of8,.g-b--push--d5of10,.g-b--push--d6of12{margin-left:50%}.g-b--push--d1of3,.g-b--push--d2of6,.g-b--push--d4of12{margin-left:33.333%}.g-b--push--d2of3,.g-b--push--d4of6,.g-b--push--d8of12{margin-left:66.666%}.g-b--push--d1of4,.g-b--push--d2of8,.g-b--push--d3of12{margin-left:25%}.g-b--push--d3of4,.g-b--push--d6of8,.g-b--push--d9of12{margin-left:75%}.g-b--push--d1of5,.g-b--push--d2of10{margin-left:20%}.g-b--push--d2of5,.g-b--push--d4of10{margin-left:40%}.g-b--push--d3of5,.g-b--push--d6of10{margin-left:60%}.g-b--push--d4of5,.g-b--push--d8of10{margin-left:80%}.g-b--push--d1of6,.g-b--push--d2of12{margin-left:16.666%}.g-b--push--d5of6,.g-b--push--d10of12{margin-left:83.333%}.g-b--push--d1of8{margin-left:12.5%}.g-b--push--d3of8{margin-left:37.5%}.g-b--push--d5of8{margin-left:62.5%}.g-b--push--d7of8{margin-left:87.5%}.g-b--push--d1of10{margin-left:10%}.g-b--push--d3of10{margin-left:30%}.g-b--push--d7of10{margin-left:70%}.g-b--push--d9of10{margin-left:90%}.g-b--push--d1of12{margin-left:8.333%}.g-b--push--d5of12{margin-left:41.666%}.g-b--push--d7of12{margin-left:58.333%}.g-b--push--d11of12{margin-left:91.666%}.g-b--pull--d1of1{margin-right:100%}.g-b--pull--d1of2,.g-b--pull--d2of4,.g-b--pull--d3of6,.g-b--pull--d4of8,.g-b--pull--d5of10,.g-b--pull--d6of12{margin-right:50%}.g-b--pull--d1of3,.g-b--pull--d2of6,.g-b--pull--d4of12{margin-right:33.333%}.g-b--pull--d2of3,.g-b--pull--d4of6,.g-b--pull--d8of12{margin-right:66.666%}.g-b--pull--d1of4,.g-b--pull--d2of8,.g-b--pull--d3of12{margin-right:25%}.g-b--pull--d3of4,.g-b--pull--d6of8,.g-b--pull--d9of12{margin-right:75%}.g-b--pull--d1of5,.g-b--pull--d2of10{margin-right:20%}.g-b--pull--d2of5,.g-b--pull--d4of10{margin-right:40%}.g-b--pull--d3of5,.g-b--pull--d6of10{margin-right:60%}.g-b--pull--d4of5,.g-b--pull--d8of10{margin-right:80%}.g-b--pull--d1of6,.g-b--pull--d2of12{margin-right:16.666%}.g-b--pull--d5of6,.g-b--pull--d10of12{margin-right:83.333%}.g-b--pull--d1of8{margin-right:12.5%}.g-b--pull--d3of8{margin-right:37.5%}.g-b--pull--d5of8{margin-right:62.5%}.g-b--pull--d7of8{margin-right:87.5%}.g-b--pull--d1of10{margin-right:10%}.g-b--pull--d3of10{margin-right:30%}.g-b--pull--d7of10{margin-right:70%}.g-b--pull--d9of10{margin-right:90%}.g-b--pull--d1of12{margin-right:8.333%}.g-b--pull--d5of12{margin-right:41.666%}.g-b--pull--d7of12{margin-right:58.333%}.g-b--pull--d11of12{margin-right:91.666%}.splashscreen-dillinger{width:700px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--export-as{display:block}.menu .menu-item--preview{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:700px}#editor{font-size:1rem}}@media screen and (min-width:87.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.splashscreen-dillinger{width:800px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#editor{font-size:1rem}}@media (min-width:768px){.form-inline .form-group{display:inline-block;margin-bottom:0;vertical-align:middle}.form-inline .form-control{display:inline-block;width:auto;vertical-align:middle}.form-inline .input-group{display:inline-table;vertical-align:middle}.form-inline .input-group .input-group-addon,.form-inline .input-group .input-group-btn,.form-inline .input-group .form-control{width:auto}.form-inline .input-group>.form-control{width:100%}.form-inline .control-label{margin-bottom:0;vertical-align:middle}.form-inline .radio,.form-inline .checkbox{display:inline-block;margin-top:0;margin-bottom:0;vertical-align:middle}.form-inline .radio label,.form-inline .checkbox label{padding-left:0}.form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{position:relative;margin-left:0}.form-inline .has-feedback .form-control-feedback{top:0}.form-horizontal .control-label{text-align:right;margin-bottom:0;padding-top:7px}.form-horizontal .form-group-lg .control-label{padding-top:14.3px}.form-horizontal .form-group-sm .control-label{padding-top:6px}.modal-dialog{width:600px;margin:30px auto}.modal-content{box-shadow:0 5px 15px rgba(0,0,0,.5)}.modal-sm{width:300px}}@media (min-width:992px){.modal-lg{width:900px}}@media screen and (max-width:1200px){#_default_{max-width:30%}#_default_ ._default_{font-size:.825rem;line-height:.875rem;padding:12px 12px 6px 24px;text-align:justify}}@media screen and (max-width:1100px){#_default_{max-width:27%}#_default_ ._default_{font-size:.8rem;line-height:.85rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:1000px){#_default_{max-width:24%}#_default_ ._default_{font-size:.775rem;line-height:.8rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:900px){#_default_{max-width:30%}}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;overflow-x:auto;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd;-webkit-overflow-scrolling:touch}.table-responsive>.table{margin-bottom:0}.table-responsive>.table>thead>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}.table-responsive>.table-bordered{border:0}.table-responsive>.table-bordered>thead>tr>th:first-child,.table-responsive>.table-bordered>thead>tr>td:first-child,.table-responsive>.table-bordered>tbody>tr>th:first-child,.table-responsive>.table-bordered>tbody>tr>td:first-child,.table-responsive>.table-bordered>tfoot>tr>th:first-child,.table-responsive>.table-bordered>tfoot>tr>td:first-child{border-left:0}.table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}.table-responsive>.table-bordered>tbody>tr:last-child>th,.table-responsive>.table-bordered>tbody>tr:last-child>td,.table-responsive>.table-bordered>tfoot>tr:last-child>th,.table-responsive>.table-bordered>tfoot>tr:last-child>td{border-bottom:0}}@media screen and (max-width:720px){#_default_{max-width:60%}#_default_ ._default_{font-size:.75rem;line-height:1rem;padding:12px 24px}}@media screen and (max-width:620px){#_default_{max-width:50%}#_default_ ._default_{font-size:.66rem;letter-spacing:1px;line-height:1rem;padding:10px 24px}}@media screen and (max-width:520px){#_default_ ._default_{font-size:.4rem;line-height:.875rem;padding:6px 12px 6px 24px;text-align:justify}}@media screen and (max-width:460px){#_default_{display:none}}@media screen and (max-width:46.1875em){.editor-header{display:none}.editor-header--first{display:block;width:100%}}</style></head><body id="preview">
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="NVIDIA_Cloud_Lab_by_AiProffai__How_to_Get_Started_with_Starter_Kit_1_0"></a>NVIDIA Cloud Lab by <a href="http://AiProff.ai">AiProff.ai</a> | How to Get Started with Starter Kit 1</h1>
+<h2 class="code-line" data-line-start=2 data-line-end=3 ><a id="_Overview_2"></a>📋 Overview</h2>
+<p class="has-line-data" data-line-start="4" data-line-end="5">Welcome to <strong>Starter Kit 1: Computer Vision - Face Detection</strong>! This kit will teach you fundamental computer vision techniques using OpenCV, including:</p>
+<ul>
+<li class="has-line-data" data-line-start="5" data-line-end="6"><strong>Haar Cascade</strong> for face detection (Tasks 1 &amp; 2)</li>
+<li class="has-line-data" data-line-start="6" data-line-end="7"><strong>HOG (Histogram of Oriented Gradients)</strong> for face detection (Task 3)</li>
+<li class="has-line-data" data-line-start="7" data-line-end="9"><strong>System resource monitoring</strong> on Jetson Nano (Tasks 2 &amp; 3)</li>
+</ul>
+<p class="has-line-data" data-line-start="9" data-line-end="10">This is a hands-on learning experience where you’ll study working examples and then implement them yourself.</p>
+<hr>
+<h2 class="code-line" data-line-start=13 data-line-end=14 ><a id="_Learning_Objectives_13"></a>🎯 Learning Objectives</h2>
+<p class="has-line-data" data-line-start="15" data-line-end="16">By completing this starter kit, you will:</p>
+<ol>
+<li class="has-line-data" data-line-start="16" data-line-end="17">Understand how to load, process, and save images using OpenCV</li>
+<li class="has-line-data" data-line-start="17" data-line-end="18">Implement face detection using Haar Cascade classifiers</li>
+<li class="has-line-data" data-line-start="18" data-line-end="19">Monitor system resources (CPU/GPU) during processing</li>
+<li class="has-line-data" data-line-start="19" data-line-end="20">Implement face detection using HOG descriptors (or DNN as alternative)</li>
+<li class="has-line-data" data-line-start="20" data-line-end="21">Learn the differences between Haar Cascade and HOG approaches</li>
+<li class="has-line-data" data-line-start="21" data-line-end="23">Develop good coding practices with error handling and validation</li>
+</ol>
+<hr>
+<blockquote>
+<p class="has-line-data" data-line-start="25" data-line-end="26"><strong>📌 Important Note:</strong> If you face any error during execution of code in <strong>Task 1, Task 2, or Task 3</strong>, or while working on the assignments, please refer to the <strong><a href="troubleshooting_guide.html">troubleshooting_guide.html</a></strong> file for solutions and help with any issues.</p>
+</blockquote>
+<hr>
+<h2 class="code-line" data-line-start=31 data-line-end=32 ><a id="_File_Structure_31"></a>📁 File Structure</h2>
+<h3 class="code-line" data-line-start=33 data-line-end=34 ><a id="Directory_Organization_33"></a>Directory Organization</h3>
+<pre><code class="has-line-data" data-line-start="36" data-line-end="77">starter_kit1/
+│
+├── task1/                          # Reference: Haar Cascade Face Detection
+│   ├── detect_person_haar.py      # Complete working code (STUDY THIS FIRST)
+│   ├── image.jpg                  # Sample image for testing
+│   └── task1_face_detected.jpg    # Sample output (generated after running)
+│
+├── task2/                          # Reference: Haar Cascade with System Monitoring
+│   ├── detect_person_haar_sys.py  # Complete working code with CPU/GPU monitoring
+│   ├── image.jpg                  # Sample image for testing
+│   └── task2_face_detected.jpg    # Sample output (generated after running)
+│
+├── task3/                          # Reference: HOG Face Detection with Monitoring
+│   ├── detect_face_hog.py         # Complete working code for HOG face detection
+│   ├── image.jpg                  # Sample image for testing
+│   └── task3_face_detected_hog.jpg # Sample output (generated after running)
+│
+├── assignment1/                    # Practice: Haar Cascade Face Detection
+│   ├── assignment1.py             # Fill in the missing code (YOUR WORK)
+│   ├── image.jpg                  # Place your test image here
+│   └── assignment1_face_detected.jpg # Output will be saved here (after running)
+│
+├── assignment2/                    # Practice: Haar Cascade with System Monitoring
+│   ├── assignment2.py             # Fill in the missing code (YOUR WORK)
+│   ├── image.jpg                  # Place your test image here
+│   └── assignment2_face_detected.jpg # Output will be saved here (after running)
+│
+├── assignment3/                    # Practice: HOG Face Detection with Monitoring
+│   ├── assignment3.py             # Fill in the missing code (YOUR WORK)
+│   ├── image.jpg                  # Place your test image here
+│   └── assignment3_face_detected_hog.jpg # Output will be saved here (after running)
+│
+├── capstone_project/               # Final Challenge: Multi-Object Detection System
+│   ├── capstone_project.py        # Complete from scratch (NO CODE PROVIDED)
+│   ├── street_scene.jpg           # Test image with people and cars
+│   ├── cars.xml                   # Car detection model (download from GitHub)
+│   └── capstone_output.jpg        # Output (generated after completion)
+│
+├── how_to_get_started.md          # This file
+└── basic_linux_commands.md        # Linux commands guide for beginners
+</code></pre>
+<h3 class="code-line" data-line-start=78 data-line-end=79 ><a id="Understanding_the_Structure_78"></a>Understanding the Structure</h3>
+<p class="has-line-data" data-line-start="80" data-line-end="81"><strong>Task Folders (<code>task1/</code>, <code>task2/</code>, <code>task3/</code>)</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="81" data-line-end="82">Contains <strong>complete, working reference code</strong></li>
+<li class="has-line-data" data-line-start="82" data-line-end="83">Includes <strong>sample images</strong> (<code>image.jpg</code>) for testing</li>
+<li class="has-line-data" data-line-start="83" data-line-end="84">Heavily commented with explanations of each step</li>
+<li class="has-line-data" data-line-start="84" data-line-end="85">Use these to <strong>study and understand</strong> the concepts</li>
+<li class="has-line-data" data-line-start="85" data-line-end="86">You can run these files directly to see how they work</li>
+<li class="has-line-data" data-line-start="86" data-line-end="88">Sample output images are also generated when you run the code</li>
+</ul>
+<p class="has-line-data" data-line-start="88" data-line-end="89"><strong>Assignment Folders (<code>assignment1/</code>, <code>assignment2/</code>, <code>assignment3/</code>)</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="89" data-line-end="90">Contains <strong>incomplete skeleton code</strong> with TODOs</li>
+<li class="has-line-data" data-line-start="90" data-line-end="91">This is where <strong>you write your code</strong></li>
+<li class="has-line-data" data-line-start="91" data-line-end="92">Each assignment references its corresponding task file</li>
+<li class="has-line-data" data-line-start="92" data-line-end="94">Complete the missing parts based on what you learned from the task files</li>
+</ul>
+<p class="has-line-data" data-line-start="94" data-line-end="95"><strong>Capstone Project Folder (<code>capstone_project/</code>)</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="95" data-line-end="96">The <strong>FINAL CHALLENGE</strong> of Starter Kit 1</li>
+<li class="has-line-data" data-line-start="96" data-line-end="97"><strong>NO code provided</strong> - build everything from scratch</li>
+<li class="has-line-data" data-line-start="97" data-line-end="98">Combines all detection and monitoring skills learned</li>
+<li class="has-line-data" data-line-start="98" data-line-end="99"><strong>Different challenge:</strong> Detects persons (using HOG) AND cars in street scenes</li>
+<li class="has-line-data" data-line-start="99" data-line-end="100">Note: This uses HOG for person detection (different from face detection in tasks)</li>
+<li class="has-line-data" data-line-start="100" data-line-end="101">Monitors system performance (CPU, GPU, Memory)</li>
+<li class="has-line-data" data-line-start="101" data-line-end="102">Requires research to find/use car detection models</li>
+<li class="has-line-data" data-line-start="102" data-line-end="103">Demonstrates mastery and independent problem-solving</li>
+<li class="has-line-data" data-line-start="103" data-line-end="105">Start this only after completing all 3 assignments</li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=107 data-line-end=108 ><a id="_How_to_Start_and_Complete_This_Kit_107"></a>🚀 How to Start and Complete This Kit</h2>
+<h3 class="code-line" data-line-start=109 data-line-end=110 ><a id="StepbyStep_Workflow_109"></a>Step-by-Step Workflow</h3>
+<p class="has-line-data" data-line-start="111" data-line-end="112">Follow this sequence to get the most out of the learning experience:</p>
+<h4 class="code-line" data-line-start=113 data-line-end=114 ><a id="Phase_1_Face_Detection_with_Haar_Cascade_113"></a><strong>Phase 1: Face Detection with Haar Cascade</strong></h4>
+<ol>
+<li class="has-line-data" data-line-start="115" data-line-end="122">
+<p class="has-line-data" data-line-start="115" data-line-end="116"><strong>Study the Reference Code</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="116" data-line-end="117">Open and read <code>task1/detect_person_haar.py</code></li>
+<li class="has-line-data" data-line-start="117" data-line-end="118">Understand each step and the comments</li>
+<li class="has-line-data" data-line-start="118" data-line-end="119">Note how Haar Cascade classifier works</li>
+<li class="has-line-data" data-line-start="119" data-line-end="120">Learn about grayscale conversion and cascade XML files</li>
+<li class="has-line-data" data-line-start="120" data-line-end="122">Run the code to see it in action (optional)</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="122" data-line-end="128">
+<p class="has-line-data" data-line-start="122" data-line-end="123"><strong>Complete Your First Assignment</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="123" data-line-end="124">Open <code>assignment1/assignment1.py</code></li>
+<li class="has-line-data" data-line-start="124" data-line-end="125">Read each QUESTION comment carefully</li>
+<li class="has-line-data" data-line-start="125" data-line-end="126">Fill in the TODO sections based on what you learned from task1</li>
+<li class="has-line-data" data-line-start="126" data-line-end="128">Test your code to ensure it works</li>
+</ul>
+</li>
+</ol>
+<h4 class="code-line" data-line-start=128 data-line-end=129 ><a id="Phase_2_System_Resource_Monitoring_128"></a><strong>Phase 2: System Resource Monitoring</strong></h4>
+<ol start="3">
+<li class="has-line-data" data-line-start="130" data-line-end="137">
+<p class="has-line-data" data-line-start="130" data-line-end="131"><strong>Study System Monitoring</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="131" data-line-end="132">Open and read <code>task2/detect_person_haar_sys.py</code></li>
+<li class="has-line-data" data-line-start="132" data-line-end="133">Notice the additional libraries (psutil, subprocess)</li>
+<li class="has-line-data" data-line-start="133" data-line-end="134">Understand how CPU and GPU usage is captured</li>
+<li class="has-line-data" data-line-start="134" data-line-end="135">Pay attention to the tegrastats command (Jetson Nano specific)</li>
+<li class="has-line-data" data-line-start="135" data-line-end="137">See how the code formats and displays system statistics</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="137" data-line-end="144">
+<p class="has-line-data" data-line-start="137" data-line-end="138"><strong>Complete Your Second Assignment</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="138" data-line-end="139">Open <code>assignment2/assignment2.py</code></li>
+<li class="has-line-data" data-line-start="139" data-line-end="140">This builds upon Assignment 1</li>
+<li class="has-line-data" data-line-start="140" data-line-end="141">Add system monitoring capabilities</li>
+<li class="has-line-data" data-line-start="141" data-line-end="142">Implement the GPU usage function</li>
+<li class="has-line-data" data-line-start="142" data-line-end="144">Format system statistics for display</li>
+</ul>
+</li>
+</ol>
+<h4 class="code-line" data-line-start=144 data-line-end=145 ><a id="Phase_3_HOG_Face_Detection__Comparison_144"></a><strong>Phase 3: HOG Face Detection &amp; Comparison</strong></h4>
+<ol start="5">
+<li class="has-line-data" data-line-start="146" data-line-end="153">
+<p class="has-line-data" data-line-start="146" data-line-end="147"><strong>Study HOG Detection</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="147" data-line-end="148">Open and read <code>task3/detect_face_hog.py</code></li>
+<li class="has-line-data" data-line-start="148" data-line-end="149">Notice the differences from Haar Cascade approach</li>
+<li class="has-line-data" data-line-start="149" data-line-end="150">Understand HOG (Histogram of Oriented Gradients) method</li>
+<li class="has-line-data" data-line-start="150" data-line-end="151">Learn about dlib and DNN alternatives</li>
+<li class="has-line-data" data-line-start="151" data-line-end="153">Study the comparison between methods</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="153" data-line-end="159">
+<p class="has-line-data" data-line-start="153" data-line-end="154"><strong>Complete Your Third Assignment</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="154" data-line-end="155">Open <code>assignment3/assignment3.py</code></li>
+<li class="has-line-data" data-line-start="155" data-line-end="156">Implement HOG-based face detection from scratch</li>
+<li class="has-line-data" data-line-start="156" data-line-end="157">Compare this method with Haar Cascade from earlier tasks</li>
+<li class="has-line-data" data-line-start="157" data-line-end="159">Analyze speed vs accuracy tradeoffs</li>
+</ul>
+</li>
+</ol>
+<h4 class="code-line" data-line-start=159 data-line-end=160 ><a id="Phase_4_Capstone_Project_Final_Challenge_159"></a><strong>Phase 4: Capstone Project (Final Challenge)</strong></h4>
+<ol start="7">
+<li class="has-line-data" data-line-start="161" data-line-end="173"><strong>Take on the Final Challenge</strong>
+<ul>
+<li class="has-line-data" data-line-start="162" data-line-end="163">Open <code>capstone_project/capstone_project.py</code></li>
+<li class="has-line-data" data-line-start="163" data-line-end="164">Read the complete project requirements carefully</li>
+<li class="has-line-data" data-line-start="164" data-line-end="165">This is a <strong>CAPSTONE PROJECT</strong> - no code provided!</li>
+<li class="has-line-data" data-line-start="165" data-line-end="166">Build a multi-object detection system from scratch</li>
+<li class="has-line-data" data-line-start="166" data-line-end="167"><strong>New Challenge:</strong> Detect persons (using HOG) AND cars in street scenes</li>
+<li class="has-line-data" data-line-start="167" data-line-end="168">Note: This applies HOG for person/pedestrian detection (different from face detection)</li>
+<li class="has-line-data" data-line-start="168" data-line-end="169">Monitor CPU, GPU, and Memory usage</li>
+<li class="has-line-data" data-line-start="169" data-line-end="170">Research and download car detection models from GitHub (links provided in file)</li>
+<li class="has-line-data" data-line-start="170" data-line-end="171">Apply all monitoring skills learned from Tasks 2 &amp; 3</li>
+<li class="has-line-data" data-line-start="171" data-line-end="173">This tests your ability to work independently and research solutions</li>
+</ul>
+</li>
+</ol>
+<p class="has-line-data" data-line-start="173" data-line-end="174"><strong>Important:</strong> Only start the capstone project after completing assignments 1, 2, and 3. This is your graduation project for Starter Kit 1!</p>
+<hr>
+<h2 class="code-line" data-line-start=177 data-line-end=178 ><a id="_Managing_Your_Files_177"></a>📂 Managing Your Files</h2>
+<h3 class="code-line" data-line-start=179 data-line-end=180 ><a id="Input_Images_Test_Data_179"></a>Input Images (Test Data)</h3>
+<p class="has-line-data" data-line-start="181" data-line-end="182"><strong>Sample images provided:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="182" data-line-end="183">Each <strong>task folder</strong> (<code>task1/</code>, <code>task2/</code>, <code>task3/</code>) includes a sample <code>image.jpg</code> for reference and testing</li>
+<li class="has-line-data" data-line-start="183" data-line-end="185">You can use these sample images to run the task files and see how they work</li>
+</ul>
+<p class="has-line-data" data-line-start="185" data-line-end="186"><strong>Where to place input images for assignments:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="186" data-line-end="187">Place <code>image.jpg</code> (or your test image) in the <strong>same directory</strong> as the assignment script you’re working on</li>
+<li class="has-line-data" data-line-start="187" data-line-end="188">Example: For Assignment 1, place <code>image.jpg</code> in the <code>assignment1/</code> folder</li>
+<li class="has-line-data" data-line-start="188" data-line-end="189">You can copy the sample image from the task folders or use your own images</li>
+<li class="has-line-data" data-line-start="189" data-line-end="191">Ensure the image filename matches what’s in the code (default: <code>image.jpg</code>)</li>
+</ul>
+<p class="has-line-data" data-line-start="191" data-line-end="192"><strong>Image Requirements:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="192" data-line-end="193">Format: JPG, PNG, or any OpenCV-supported format</li>
+<li class="has-line-data" data-line-start="193" data-line-end="194">Content: For all assignments, use images with <strong>visible faces</strong> (frontal view works best)</li>
+<li class="has-line-data" data-line-start="194" data-line-end="196">Size: Any size (the code will resize if needed)</li>
+</ul>
+<h3 class="code-line" data-line-start=196 data-line-end=197 ><a id="Output_Files_Results_196"></a>Output Files (Results)</h3>
+<p class="has-line-data" data-line-start="198" data-line-end="199"><strong>Where output images are saved:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="199" data-line-end="200">Output images are saved in the <strong>same directory</strong> as the script</li>
+<li class="has-line-data" data-line-start="200" data-line-end="201"><code>task1/</code> → saves <code>task1_face_detected.jpg</code></li>
+<li class="has-line-data" data-line-start="201" data-line-end="202"><code>task2/</code> → saves <code>task2_face_detected.jpg</code></li>
+<li class="has-line-data" data-line-start="202" data-line-end="203"><code>task3/</code> → saves <code>task3_face_detected_hog.jpg</code></li>
+<li class="has-line-data" data-line-start="203" data-line-end="204"><code>assignment1/</code> → saves <code>assignment1_face_detected.jpg</code></li>
+<li class="has-line-data" data-line-start="204" data-line-end="205"><code>assignment2/</code> → saves <code>assignment2_face_detected.jpg</code></li>
+<li class="has-line-data" data-line-start="205" data-line-end="207"><code>assignment3/</code> → saves <code>assignment3_face_detected_hog.jpg</code></li>
+</ul>
+<h3 class="code-line" data-line-start=207 data-line-end=208 ><a id="Sample_Directory_Setup_207"></a>Sample Directory Setup</h3>
+<p class="has-line-data" data-line-start="209" data-line-end="210"><strong>Task folder (reference):</strong></p>
+<pre><code class="has-line-data" data-line-start="211" data-line-end="216">task1/
+├── detect_person_haar.py      # Reference code
+├── image.jpg                  # Sample image (provided)
+└── task1_face_detected.jpg    # Sample output (generated after running)
+</code></pre>
+<p class="has-line-data" data-line-start="217" data-line-end="218"><strong>Assignment folder (your work):</strong></p>
+<pre><code class="has-line-data" data-line-start="219" data-line-end="224">assignment1/
+├── assignment1.py                  # Your code
+├── image.jpg                       # Your input image (copy from task1 or use your own)
+└── assignment1_face_detected.jpg   # Output (generated after running your code)
+</code></pre>
+<hr>
+<h2 class="code-line" data-line-start=227 data-line-end=228 ><a id="_Prerequisites__Setup_227"></a>🛠️ Prerequisites &amp; Setup</h2>
+<h3 class="code-line" data-line-start=229 data-line-end=230 ><a id="Software_Requirements_229"></a>Software Requirements</h3>
+<ol>
+<li class="has-line-data" data-line-start="231" data-line-end="234">
+<p class="has-line-data" data-line-start="231" data-line-end="232"><strong>Python 3.x</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="232" data-line-end="234">Ensure Python is installed and accessible from command line</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="234" data-line-end="239">
+<p class="has-line-data" data-line-start="234" data-line-end="235"><strong>OpenCV (cv2)</strong></p>
+<pre><code class="has-line-data" data-line-start="236" data-line-end="238" class="language-bash">pip install opencv-python
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="239" data-line-end="244">
+<p class="has-line-data" data-line-start="239" data-line-end="240"><strong>psutil</strong> (for Task 2, Assignment 2)</p>
+<pre><code class="has-line-data" data-line-start="241" data-line-end="243" class="language-bash">pip install psutil
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="244" data-line-end="249">
+<p class="has-line-data" data-line-start="244" data-line-end="245"><strong>dlib</strong> (optional, for Task 3 HOG detection - falls back to DNN if unavailable)</p>
+<pre><code class="has-line-data" data-line-start="246" data-line-end="248" class="language-bash">pip install dlib
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="249" data-line-end="250">
+<p class="has-line-data" data-line-start="249" data-line-end="250"><strong>subprocess, re, time, sys, os</strong> (built-in Python modules)</p>
+</li>
+</ol>
+<h2 class="code-line" data-line-start=252 data-line-end=253 ><a id="_Running_Your_Code_252"></a>▶️ Running Your Code</h2>
+<h3 class="code-line" data-line-start=254 data-line-end=255 ><a id="Running_Task_Files_Reference_Code_254"></a>Running Task Files (Reference Code)</h3>
+<p class="has-line-data" data-line-start="256" data-line-end="257">To see how the complete code works:</p>
+<pre><code class="has-line-data" data-line-start="259" data-line-end="265" class="language-bash"><span class="hljs-comment"># Navigate to the task directory</span>
+<span class="hljs-built_in">cd</span> task1
+
+<span class="hljs-comment"># Run the Python script</span>
+python3 detect_person_haar.py
+</code></pre>
+<p class="has-line-data" data-line-start="266" data-line-end="267">Make sure <code>image.jpg</code> exists in the same folder before running.</p>
+<h3 class="code-line" data-line-start=268 data-line-end=269 ><a id="Running_Assignment_Files_Your_Code_268"></a>Running Assignment Files (Your Code)</h3>
+<p class="has-line-data" data-line-start="270" data-line-end="271">To test your implementation:</p>
+<pre><code class="has-line-data" data-line-start="273" data-line-end="279" class="language-bash"><span class="hljs-comment"># Navigate to the assignment directory</span>
+<span class="hljs-built_in">cd</span> assignment1
+
+<span class="hljs-comment"># Run your code</span>
+python3 assignment1.py
+</code></pre>
+<h3 class="code-line" data-line-start=280 data-line-end=281 ><a id="Expected_Output_280"></a>Expected Output</h3>
+<p class="has-line-data" data-line-start="282" data-line-end="283"><strong>Console Output (Task 1 - Basic):</strong></p>
+<pre><code class="has-line-data" data-line-start="284" data-line-end="286">Detected 2 face(s). Output saved to face_detected.jpg
+</code></pre>
+<p class="has-line-data" data-line-start="287" data-line-end="288"><strong>Console Output (Task 2 &amp; 3 - With Monitoring):</strong></p>
+<pre><code class="has-line-data" data-line-start="289" data-line-end="310">========================================================================
+               FACE DETECTION WITH SYSTEM MONITORING
+========================================================================
+
+[1/8] Loading image: image.jpg
+✅ Image loaded successfully
+   Dimensions: 1920 x 1080 pixels
+
+[2/8] Converting to grayscale...
+✅ Converted to grayscale
+
+...
+
+Detected 2 face(s). Output saved to task2_face_detected.jpg
+
+CPU Usage: 25.4%
+========================================================================
+                              GPU STATS
+========================================================================
+...
+</code></pre>
+<p class="has-line-data" data-line-start="311" data-line-end="312"><strong>Visual Output:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="312" data-line-end="313">A window may display showing the image with bounding boxes (if not headless)</li>
+<li class="has-line-data" data-line-start="313" data-line-end="314">Press any key to close the window</li>
+<li class="has-line-data" data-line-start="314" data-line-end="316">The annotated image is saved to the output file</li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=318 data-line-end=319 ><a id="_Learning_Path_Summary_318"></a>📚 Learning Path Summary</h2>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Phase</th>
+<th>Reference File</th>
+<th>Assignment File</th>
+<th>What You’ll Learn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>task1/detect_person_haar.py</code></td>
+<td><code>assignment1/assignment1.py</code></td>
+<td>Haar Cascade face detection, grayscale conversion, cascade classifiers</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>task2/detect_person_haar_sys.py</code></td>
+<td><code>assignment2/assignment2.py</code></td>
+<td>System monitoring, CPU/GPU usage, tegrastats, subprocess commands</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>task3/detect_face_hog.py</code></td>
+<td><code>assignment3/assignment3.py</code></td>
+<td>HOG face detection, dlib/DNN, method comparison, accuracy vs speed</td>
+</tr>
+<tr>
+<td>4</td>
+<td>None (Independent Work)</td>
+<td><code>capstone_project/capstone_project.py</code></td>
+<td>Multi-object detection, research skills, independent problem-solving</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 class="code-line" data-line-start=329 data-line-end=330 ><a id="_Key_Concepts_Youll_Master_329"></a>🔍 Key Concepts You’ll Master</h2>
+<h3 class="code-line" data-line-start=331 data-line-end=332 ><a id="Assignment_1_Haar_Cascade_Face_Detection_331"></a>Assignment 1: Haar Cascade Face Detection</h3>
+<ul>
+<li class="has-line-data" data-line-start="332" data-line-end="333">Image loading with <code>cv2.imread()</code></li>
+<li class="has-line-data" data-line-start="333" data-line-end="334">Grayscale image conversion with <code>cv2.cvtColor()</code></li>
+<li class="has-line-data" data-line-start="334" data-line-end="335">Cascade classifier loading with <code>cv2.CascadeClassifier()</code></li>
+<li class="has-line-data" data-line-start="335" data-line-end="336">Face detection with <code>detectMultiScale()</code></li>
+<li class="has-line-data" data-line-start="336" data-line-end="337">Understanding detection parameters (scaleFactor, minNeighbors, minSize)</li>
+<li class="has-line-data" data-line-start="337" data-line-end="338">Drawing bounding boxes with <code>cv2.rectangle()</code></li>
+<li class="has-line-data" data-line-start="338" data-line-end="340">Saving processed images with <code>cv2.imwrite()</code></li>
+</ul>
+<h3 class="code-line" data-line-start=340 data-line-end=341 ><a id="Assignment_2_System_Monitoring_340"></a>Assignment 2: System Monitoring</h3>
+<ul>
+<li class="has-line-data" data-line-start="341" data-line-end="342">Everything from Assignment 1, plus:</li>
+<li class="has-line-data" data-line-start="342" data-line-end="343">CPU usage monitoring with <code>psutil.cpu_percent()</code></li>
+<li class="has-line-data" data-line-start="343" data-line-end="344">GPU statistics using <code>tegrastats</code> (Jetson Nano specific)</li>
+<li class="has-line-data" data-line-start="344" data-line-end="345">Shell command execution with <code>subprocess.Popen()</code></li>
+<li class="has-line-data" data-line-start="345" data-line-end="346">Parsing system stats with regex (<code>re</code> module)</li>
+<li class="has-line-data" data-line-start="346" data-line-end="347">Formatting output into readable tables</li>
+<li class="has-line-data" data-line-start="347" data-line-end="349">Resource profiling during inference</li>
+</ul>
+<h3 class="code-line" data-line-start=349 data-line-end=350 ><a id="Assignment_3_HOG_Face_Detection_349"></a>Assignment 3: HOG Face Detection</h3>
+<ul>
+<li class="has-line-data" data-line-start="350" data-line-end="351">HOG (Histogram of Oriented Gradients) method</li>
+<li class="has-line-data" data-line-start="351" data-line-end="352">Using dlib’s <code>get_frontal_face_detector()</code></li>
+<li class="has-line-data" data-line-start="352" data-line-end="353">Alternative: OpenCV DNN face detector as fallback</li>
+<li class="has-line-data" data-line-start="353" data-line-end="354">Understanding HOG vs Haar Cascade tradeoffs</li>
+<li class="has-line-data" data-line-start="354" data-line-end="355">Comparing detection speed and accuracy</li>
+<li class="has-line-data" data-line-start="355" data-line-end="356">Converting between dlib and OpenCV coordinate formats</li>
+<li class="has-line-data" data-line-start="356" data-line-end="358">Adding text labels with <code>cv2.putText()</code></li>
+</ul>
+<h3 class="code-line" data-line-start=358 data-line-end=359 ><a id="Capstone_Project_MultiObject_Detection_System_358"></a>Capstone Project: Multi-Object Detection System</h3>
+<ul>
+<li class="has-line-data" data-line-start="359" data-line-end="360"><strong>New Application Domain:</strong> Person and car detection in street scenes</li>
+<li class="has-line-data" data-line-start="360" data-line-end="361">Applying HOG for person/pedestrian detection (not face detection)</li>
+<li class="has-line-data" data-line-start="361" data-line-end="362">Researching and downloading car detection models (Haar Cascade)</li>
+<li class="has-line-data" data-line-start="362" data-line-end="363">Building complete detection systems from scratch (no code provided)</li>
+<li class="has-line-data" data-line-start="363" data-line-end="364">Comprehensive performance monitoring (CPU, GPU, Memory, Time)</li>
+<li class="has-line-data" data-line-start="364" data-line-end="365">Combining multiple detection methods in one system</li>
+<li class="has-line-data" data-line-start="365" data-line-end="366">Error handling and robust code practices</li>
+<li class="has-line-data" data-line-start="366" data-line-end="367">Independent problem-solving and research skills</li>
+<li class="has-line-data" data-line-start="367" data-line-end="369">Production-level code organization and reporting</li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=371 data-line-end=372 ><a id="_Capstone_Project_Your_Final_Challenge_371"></a>🏆 Capstone Project: Your Final Challenge</h2>
+<h3 class="code-line" data-line-start=373 data-line-end=374 ><a id="What_is_a_Capstone_Project_373"></a>What is a Capstone Project?</h3>
+<p class="has-line-data" data-line-start="375" data-line-end="376">A <strong>“capstone”</strong> is the final stone placed at the top of a building, representing completion and mastery. The capstone project is:</p>
+<ul>
+<li class="has-line-data" data-line-start="376" data-line-end="377">Your <strong>graduation project</strong> for Starter Kit 1</li>
+<li class="has-line-data" data-line-start="377" data-line-end="378">The most comprehensive and challenging task</li>
+<li class="has-line-data" data-line-start="378" data-line-end="379">A test of your <strong>independent problem-solving</strong> skills</li>
+<li class="has-line-data" data-line-start="379" data-line-end="380"><strong>NO code provided</strong> - you build everything from scratch</li>
+<li class="has-line-data" data-line-start="380" data-line-end="382">Combines all skills learned from previous tasks</li>
+</ul>
+<h3 class="code-line" data-line-start=382 data-line-end=383 ><a id="Why_is_the_Capstone_Different_382"></a>Why is the Capstone Different?</h3>
+<p class="has-line-data" data-line-start="384" data-line-end="386"><strong>Tasks 1-3 Focus:</strong> Face detection (Haar Cascade and HOG methods)<br>
+<strong>Capstone Focus:</strong> Person and car detection in street scenes</p>
+<p class="has-line-data" data-line-start="387" data-line-end="388">This is intentional! The capstone project:</p>
+<ul>
+<li class="has-line-data" data-line-start="388" data-line-end="389">Tests your ability to <strong>apply knowledge to new domains</strong></li>
+<li class="has-line-data" data-line-start="389" data-line-end="390">Uses HOG for person/pedestrian detection (different from face detection)</li>
+<li class="has-line-data" data-line-start="390" data-line-end="391">Requires <strong>research</strong> to find car detection models</li>
+<li class="has-line-data" data-line-start="391" data-line-end="392">Challenges you to combine multiple detection methods</li>
+<li class="has-line-data" data-line-start="392" data-line-end="394">Prepares you for real-world computer vision applications</li>
+</ul>
+<h3 class="code-line" data-line-start=394 data-line-end=395 ><a id="Capstone_Project_Requirements_394"></a>Capstone Project Requirements</h3>
+<p class="has-line-data" data-line-start="396" data-line-end="397"><strong>Core Requirements (Must Complete):</strong></p>
+<ol>
+<li class="has-line-data" data-line-start="398" data-line-end="404">
+<p class="has-line-data" data-line-start="398" data-line-end="399"><strong>Multi-Object Detection</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="399" data-line-end="400">Detect persons using HOG descriptor</li>
+<li class="has-line-data" data-line-start="400" data-line-end="401">Detect cars using Haar Cascade (research required)</li>
+<li class="has-line-data" data-line-start="401" data-line-end="402">Draw different colored boxes (Green for persons, Blue for cars)</li>
+<li class="has-line-data" data-line-start="402" data-line-end="404">Count and label each detection</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="404" data-line-end="409">
+<p class="has-line-data" data-line-start="404" data-line-end="405"><strong>Visual Output</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="405" data-line-end="406">Load input: <code>street_scene.jpg</code></li>
+<li class="has-line-data" data-line-start="406" data-line-end="407">Draw bounding boxes with labels</li>
+<li class="has-line-data" data-line-start="407" data-line-end="409">Save output: <code>capstone_output.jpg</code></li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="409" data-line-end="415">
+<p class="has-line-data" data-line-start="409" data-line-end="410"><strong>System Monitoring</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="410" data-line-end="411">CPU usage during detection</li>
+<li class="has-line-data" data-line-start="411" data-line-end="412">GPU statistics (tegrastats)</li>
+<li class="has-line-data" data-line-start="412" data-line-end="413">Memory consumption (before/after)</li>
+<li class="has-line-data" data-line-start="413" data-line-end="415">Detection timing for each object type</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="415" data-line-end="420">
+<p class="has-line-data" data-line-start="415" data-line-end="416"><strong>Comprehensive Report</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="416" data-line-end="417">Detection statistics (persons, cars, totals)</li>
+<li class="has-line-data" data-line-start="417" data-line-end="418">Performance metrics (times, FPS)</li>
+<li class="has-line-data" data-line-start="418" data-line-end="420">Resource usage (CPU, GPU, memory)</li>
+</ul>
+</li>
+</ol>
+<p class="has-line-data" data-line-start="420" data-line-end="421"><strong>Advanced Challenges (Optional):</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="421" data-line-end="422">Confidence filtering</li>
+<li class="has-line-data" data-line-start="422" data-line-end="423">Batch processing multiple images</li>
+<li class="has-line-data" data-line-start="423" data-line-end="424">Image preprocessing and enhancement</li>
+<li class="has-line-data" data-line-start="424" data-line-end="425">Performance optimization experiments</li>
+<li class="has-line-data" data-line-start="425" data-line-end="426">Detailed logging with timestamps</li>
+<li class="has-line-data" data-line-start="426" data-line-end="428">Multi-threading for parallel detection</li>
+</ul>
+<h3 class="code-line" data-line-start=428 data-line-end=429 ><a id="Resources_for_Success_428"></a>Resources for Success</h3>
+<p class="has-line-data" data-line-start="430" data-line-end="431"><strong>What You Already Know:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="431" data-line-end="432">✅ Image loading and preprocessing (from all tasks)</li>
+<li class="has-line-data" data-line-start="432" data-line-end="433">✅ Grayscale conversion (Tasks 1, 2, 3)</li>
+<li class="has-line-data" data-line-start="433" data-line-end="434">✅ HOG detection principles (Task 3)</li>
+<li class="has-line-data" data-line-start="434" data-line-end="435">✅ Haar Cascade loading and usage (Tasks 1, 2)</li>
+<li class="has-line-data" data-line-start="435" data-line-end="436">✅ System monitoring (Tasks 2, 3)</li>
+<li class="has-line-data" data-line-start="436" data-line-end="437">✅ Drawing bounding boxes and labels</li>
+<li class="has-line-data" data-line-start="437" data-line-end="439">✅ Performance measurement</li>
+</ul>
+<p class="has-line-data" data-line-start="439" data-line-end="440"><strong>What You Need to Research:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="440" data-line-end="441">🔍 HOG for person/pedestrian detection (different setup than face detection)</li>
+<li class="has-line-data" data-line-start="441" data-line-end="442">🔍 Car detection models (Haar Cascade XML files)</li>
+<li class="has-line-data" data-line-start="442" data-line-end="443">🔍 Combining multiple detectors in one system</li>
+<li class="has-line-data" data-line-start="443" data-line-end="445">🔍 Memory usage monitoring with psutil</li>
+</ul>
+<p class="has-line-data" data-line-start="445" data-line-end="446"><strong>Helpful Resources Provided in Capstone File:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="446" data-line-end="447">GitHub links for car detection Haar Cascade XML files</li>
+<li class="has-line-data" data-line-start="447" data-line-end="448">Example output format</li>
+<li class="has-line-data" data-line-start="448" data-line-end="449">Detailed requirement specifications</li>
+<li class="has-line-data" data-line-start="449" data-line-end="451">Optional advanced challenges</li>
+</ul>
+<h3 class="code-line" data-line-start=451 data-line-end=452 ><a id="How_to_Approach_the_Capstone_451"></a>How to Approach the Capstone</h3>
+<p class="has-line-data" data-line-start="453" data-line-end="454"><strong>Step 1: Read and Understand</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="454" data-line-end="455">Open <code>capstone_project/capstone_project.py</code></li>
+<li class="has-line-data" data-line-start="455" data-line-end="456">Read ALL requirements carefully</li>
+<li class="has-line-data" data-line-start="456" data-line-end="458">Understand what’s expected</li>
+</ul>
+<p class="has-line-data" data-line-start="458" data-line-end="459"><strong>Step 2: Research</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="459" data-line-end="460">Look up HOG person detection (cv2.HOGDescriptor)</li>
+<li class="has-line-data" data-line-start="460" data-line-end="461">Find and download car detection XML files from GitHub links</li>
+<li class="has-line-data" data-line-start="461" data-line-end="463">Review previous task files for monitoring code</li>
+</ul>
+<p class="has-line-data" data-line-start="463" data-line-end="464"><strong>Step 3: Plan Your Code</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="464" data-line-end="465">Sketch out the main steps</li>
+<li class="has-line-data" data-line-start="465" data-line-end="466">Identify which parts you can adapt from previous tasks</li>
+<li class="has-line-data" data-line-start="466" data-line-end="468">Note what needs to be researched/modified</li>
+</ul>
+<p class="has-line-data" data-line-start="468" data-line-end="469"><strong>Step 4: Build Incrementally</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="469" data-line-end="470">Start with image loading and basic setup</li>
+<li class="has-line-data" data-line-start="470" data-line-end="471">Add person detection first</li>
+<li class="has-line-data" data-line-start="471" data-line-end="472">Add car detection second</li>
+<li class="has-line-data" data-line-start="472" data-line-end="473">Add monitoring and reporting</li>
+<li class="has-line-data" data-line-start="473" data-line-end="475">Test after each addition</li>
+</ul>
+<p class="has-line-data" data-line-start="475" data-line-end="476"><strong>Step 5: Polish and Perfect</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="476" data-line-end="477">Add error handling</li>
+<li class="has-line-data" data-line-start="477" data-line-end="478">Format output professionally</li>
+<li class="has-line-data" data-line-start="478" data-line-end="479">Test with different images</li>
+<li class="has-line-data" data-line-start="479" data-line-end="481">Document your code</li>
+</ul>
+<h3 class="code-line" data-line-start=481 data-line-end=482 ><a id="Expected_Capstone_Output_Example_481"></a>Expected Capstone Output Example</h3>
+<pre><code class="has-line-data" data-line-start="484" data-line-end="543">========================================================================
+              CAPSTONE PROJECT - MULTI-OBJECT DETECTION
+========================================================================
+
+[1/7] Loading image: street_scene.jpg
+✅ Image loaded successfully (1920x1080 pixels)
+
+[2/7] Initializing HOG person detector...
+✅ HOG detector ready
+
+[3/7] Loading car detection cascade...
+✅ Car cascade loaded
+
+[4/7] Detecting persons...
+✅ Detected 3 person(s) in 0.245 seconds
+
+[5/7] Detecting cars...
+✅ Detected 5 car(s) in 0.312 seconds
+
+[6/7] Drawing annotations...
+✅ Annotations complete
+
+[7/7] Saving output...
+✅ Saved to capstone_output.jpg
+
+========================================================================
+                        DETECTION RESULTS
+========================================================================
+Persons Detected       : 3
+Cars Detected          : 5
+Total Objects          : 8
+
+========================================================================
+                      PERFORMANCE METRICS
+========================================================================
+Person Detection Time  : 0.245 seconds
+Car Detection Time     : 0.312 seconds
+Total Processing Time  : 0.557 seconds
+Processing Speed       : 1.8 FPS
+
+========================================================================
+                       SYSTEM RESOURCES
+========================================================================
+CPU Usage             : 67.5%
+Memory Before         : 1.2 GB
+Memory After          : 1.5 GB
+Memory Used           : 0.3 GB
+
+GPU Stats:
+RAM Usage      : 2295/3956MB
+SWAP Usage     : 661/1978MB
+GPU Frequency  : 45%
+...
+
+========================================================================
+                          COMPLETE! ✅
+========================================================================
+Output saved to: capstone_output.jpg
+</code></pre>
+<h3 class="code-line" data-line-start=544 data-line-end=545 ><a id="Evaluation_Criteria_544"></a>Evaluation Criteria</h3>
+<p class="has-line-data" data-line-start="546" data-line-end="547">Your capstone project will demonstrate mastery if it:</p>
+<ul>
+<li class="has-line-data" data-line-start="547" data-line-end="548">✅ Successfully detects both persons and cars</li>
+<li class="has-line-data" data-line-start="548" data-line-end="549">✅ Produces correctly annotated output image</li>
+<li class="has-line-data" data-line-start="549" data-line-end="550">✅ Includes comprehensive monitoring</li>
+<li class="has-line-data" data-line-start="550" data-line-end="551">✅ Generates professional report</li>
+<li class="has-line-data" data-line-start="551" data-line-end="552">✅ Has proper error handling</li>
+<li class="has-line-data" data-line-start="552" data-line-end="553">✅ Code is well-organized and readable</li>
+<li class="has-line-data" data-line-start="553" data-line-end="555">✅ Shows independent problem-solving</li>
+</ul>
+<h3 class="code-line" data-line-start=555 data-line-end=556 ><a id="Getting_Unstuck_555"></a>Getting Unstuck</h3>
+<p class="has-line-data" data-line-start="557" data-line-end="558">If you encounter challenges:</p>
+<ol>
+<li class="has-line-data" data-line-start="558" data-line-end="559">Review the task files for similar patterns</li>
+<li class="has-line-data" data-line-start="559" data-line-end="560">Check OpenCV documentation</li>
+<li class="has-line-data" data-line-start="560" data-line-end="561">Break the problem into smaller parts</li>
+<li class="has-line-data" data-line-start="561" data-line-end="562">Test each component separately</li>
+<li class="has-line-data" data-line-start="562" data-line-end="563">Use print statements to debug</li>
+<li class="has-line-data" data-line-start="563" data-line-end="565">Remember: Research is part of the challenge!</li>
+</ol>
+<p class="has-line-data" data-line-start="565" data-line-end="566"><strong>Important:</strong> The capstone is meant to be challenging. Struggling and researching solutions is part of the learning process!</p>
+<hr>
+<h2 class="code-line" data-line-start=569 data-line-end=570 ><a id="_Tips_for_Success_569"></a>💡 Tips for Success</h2>
+<ol>
+<li class="has-line-data" data-line-start="571" data-line-end="575">
+<p class="has-line-data" data-line-start="571" data-line-end="572"><strong>Read Before You Code</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="572" data-line-end="573">Always study the task file thoroughly before starting the assignment</li>
+<li class="has-line-data" data-line-start="573" data-line-end="575">Understand the “why” behind each step, not just the “how”</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="575" data-line-end="579">
+<p class="has-line-data" data-line-start="575" data-line-end="576"><strong>Use the Reference</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="576" data-line-end="577">The task files are your best resource</li>
+<li class="has-line-data" data-line-start="577" data-line-end="579">Each assignment explicitly references its corresponding task file</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="579" data-line-end="583">
+<p class="has-line-data" data-line-start="579" data-line-end="580"><strong>Test Incrementally</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="580" data-line-end="581">Complete one TODO section at a time</li>
+<li class="has-line-data" data-line-start="581" data-line-end="583">Run your code frequently to catch errors early</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="583" data-line-end="587">
+<p class="has-line-data" data-line-start="583" data-line-end="584"><strong>Understand Error Messages</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="584" data-line-end="585">If your code fails, read the error message carefully</li>
+<li class="has-line-data" data-line-start="585" data-line-end="587">Common issues: missing image file, incorrect function parameters</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="587" data-line-end="591">
+<p class="has-line-data" data-line-start="587" data-line-end="588"><strong>Experiment</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="588" data-line-end="589">After completing an assignment, try the optional challenges</li>
+<li class="has-line-data" data-line-start="589" data-line-end="591">Modify parameters and observe the changes</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="591" data-line-end="596">
+<p class="has-line-data" data-line-start="591" data-line-end="592"><strong>Compare Methods</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="592" data-line-end="593">After finishing all assignments, compare Haar Cascade vs HOG</li>
+<li class="has-line-data" data-line-start="593" data-line-end="594">Task 3 includes a detailed comparison table</li>
+<li class="has-line-data" data-line-start="594" data-line-end="596">Which is faster? Which is more accurate? When to use each?</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="596" data-line-end="603">
+<p class="has-line-data" data-line-start="596" data-line-end="597"><strong>Capstone Project is the Real Test</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="597" data-line-end="598">Only start after completing all 3 assignments</li>
+<li class="has-line-data" data-line-start="598" data-line-end="599">No code provided - this tests your independent skills</li>
+<li class="has-line-data" data-line-start="599" data-line-end="600">Research the resources (GitHub links provided)</li>
+<li class="has-line-data" data-line-start="600" data-line-end="601">Take your time - this is meant to be challenging</li>
+<li class="has-line-data" data-line-start="601" data-line-end="603">This is your “graduation” from Starter Kit 1</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="code-line" data-line-start=605 data-line-end=606 ><a id="_Common_Issues__Solutions_605"></a>⚠️ Common Issues &amp; Solutions</h2>
+<h3 class="code-line" data-line-start=607 data-line-end=608 ><a id="Issue_Failed_to_load_imagejpg_607"></a>Issue: “Failed to load ‘image.jpg’”</h3>
+<p class="has-line-data" data-line-start="608" data-line-end="609"><strong>Solution:</strong> Place the <code>image.jpg</code> file in the same directory as your Python script.</p>
+<h3 class="code-line" data-line-start=610 data-line-end=611 ><a id="Issue_module_cv2_not_found_610"></a>Issue: “module cv2 not found”</h3>
+<p class="has-line-data" data-line-start="611" data-line-end="612"><strong>Solution:</strong> Install OpenCV: <code>pip3 install opencv-python</code></p>
+<h3 class="code-line" data-line-start=613 data-line-end=614 ><a id="Issue_module_psutil_not_found_613"></a>Issue: “module psutil not found”</h3>
+<p class="has-line-data" data-line-start="614" data-line-end="615"><strong>Solution:</strong> Install psutil: <code>pip3 install psutil</code></p>
+<h3 class="code-line" data-line-start=616 data-line-end=617 ><a id="Issue_module_dlib_not_found_Task_3_616"></a>Issue: “module dlib not found” (Task 3)</h3>
+<p class="has-line-data" data-line-start="617" data-line-end="618"><strong>Solution:</strong> Task 3 automatically falls back to OpenCV DNN if dlib is unavailable. To install dlib: <code>pip3 install dlib</code></p>
+<h3 class="code-line" data-line-start=619 data-line-end=620 ><a id="Issue_Failed_to_load_cascade_at_haarcascade_frontalface_defaultxml_619"></a>Issue: “Failed to load cascade at haarcascade_frontalface_default.xml”</h3>
+<p class="has-line-data" data-line-start="620" data-line-end="621"><strong>Solution:</strong> Ensure the XML file is in the same directory as your script. Task files include this file.</p>
+<h3 class="code-line" data-line-start=622 data-line-end=623 ><a id="Issue_GPU_monitoring_shows_error_622"></a>Issue: GPU monitoring shows error</h3>
+<p class="has-line-data" data-line-start="623" data-line-end="624"><strong>Solution:</strong> GPU monitoring (<code>tegrastats</code>) is Jetson Nano specific. On other systems, this is expected behavior and will show an error message.</p>
+<h3 class="code-line" data-line-start=625 data-line-end=626 ><a id="Issue_No_faces_detected_625"></a>Issue: No faces detected</h3>
+<p class="has-line-data" data-line-start="626" data-line-end="627"><strong>Solution:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="627" data-line-end="628">Ensure your test image actually contains visible faces (frontal view works best)</li>
+<li class="has-line-data" data-line-start="628" data-line-end="629">Try adjusting detection parameters (scaleFactor, minNeighbors)</li>
+<li class="has-line-data" data-line-start="629" data-line-end="630">Make sure the image loaded correctly (check file path)</li>
+<li class="has-line-data" data-line-start="630" data-line-end="631">For Haar Cascade: ensure faces are relatively frontal</li>
+<li class="has-line-data" data-line-start="631" data-line-end="633">For HOG/DNN: more flexible with angles but may need better lighting</li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=635 data-line-end=636 ><a id="_Whats_Next_635"></a>🎓 What’s Next?</h2>
+<p class="has-line-data" data-line-start="637" data-line-end="638">After completing Starter Kit 1 (including the capstone project), you will have:</p>
+<ul>
+<li class="has-line-data" data-line-start="638" data-line-end="639">✅ Hands-on experience with computer vision</li>
+<li class="has-line-data" data-line-start="639" data-line-end="640">✅ Understanding of face detection algorithms (Haar Cascade, HOG, DNN)</li>
+<li class="has-line-data" data-line-start="640" data-line-end="641">✅ Practical OpenCV programming skills</li>
+<li class="has-line-data" data-line-start="641" data-line-end="642">✅ Experience with system resource monitoring on embedded systems</li>
+<li class="has-line-data" data-line-start="642" data-line-end="643">✅ Ability to research and implement solutions independently</li>
+<li class="has-line-data" data-line-start="643" data-line-end="644">✅ Confidence to build complete detection systems from scratch</li>
+<li class="has-line-data" data-line-start="644" data-line-end="646">✅ Understanding of tradeoffs between different detection methods</li>
+</ul>
+<p class="has-line-data" data-line-start="646" data-line-end="647"><strong>Completion Checklist:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="647" data-line-end="648">✅ Assignment 1: Haar Cascade Face Detection</li>
+<li class="has-line-data" data-line-start="648" data-line-end="649">✅ Assignment 2: Haar Cascade with System Monitoring</li>
+<li class="has-line-data" data-line-start="649" data-line-end="650">✅ Assignment 3: HOG Face Detection &amp; Method Comparison</li>
+<li class="has-line-data" data-line-start="650" data-line-end="652">✅ Capstone Project: Multi-Object Detection System (Final Challenge)</li>
+</ul>
+<p class="has-line-data" data-line-start="652" data-line-end="653">You’ll be ready to move on to more advanced topics in the next starter kits!</p>
+<hr>
+<h2 class="code-line" data-line-start=656 data-line-end=657 ><a id="_Need_Help_656"></a>📞 Need Help?</h2>
+<p class="has-line-data" data-line-start="658" data-line-end="659">If you get stuck:</p>
+<ol>
+<li class="has-line-data" data-line-start="659" data-line-end="660">Re-read the task file comments carefully</li>
+<li class="has-line-data" data-line-start="660" data-line-end="661">Check that your image file is in the correct location</li>
+<li class="has-line-data" data-line-start="661" data-line-end="662">Verify all required libraries are installed</li>
+<li class="has-line-data" data-line-start="662" data-line-end="663">Compare your code with the reference implementation</li>
+<li class="has-line-data" data-line-start="663" data-line-end="665">Review the error messages for clues</li>
+</ol>
+<hr>
+<p class="has-line-data" data-line-start="667" data-line-end="668"><strong>Good luck with your learning journey! 🚀</strong></p>
+<p class="has-line-data" data-line-start="669" data-line-end="670">Remember: The goal is not just to complete the code, but to <strong>understand</strong> how face detection algorithms work and when to use each method. Take your time and enjoy the process!</p>
+<hr>
+<h2 class="code-line" data-line-start=673 data-line-end=674 ><a id="_Understanding_Detection_Methods_Haar_Cascade_vs_HOG_673"></a>📊 Understanding Detection Methods: Haar Cascade vs HOG</h2>
+<p class="has-line-data" data-line-start="675" data-line-end="676">This section explains the fundamental differences between the two face detection methods you’ll learn in this kit.</p>
+<hr>
+<h3 class="code-line" data-line-start=679 data-line-end=680 ><a id="_Technical_Comparison_679"></a>🔬 Technical Comparison</h3>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Haar Cascade (Tasks 1 &amp; 2)</th>
+<th>HOG/DNN (Task 3)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Speed</strong></td>
+<td>⚡ Faster (20-50 FPS)</td>
+<td>🐢 Slower (5-15 FPS)</td>
+</tr>
+<tr>
+<td><strong>Accuracy</strong></td>
+<td>👌 Good for frontal faces (85-90%)</td>
+<td>🎯 More accurate overall (92-98%)</td>
+</tr>
+<tr>
+<td><strong>Robustness</strong></td>
+<td>⚠️ Sensitive to angle/lighting</td>
+<td>✅ Handles variations better</td>
+</tr>
+<tr>
+<td><strong>Resource Usage</strong></td>
+<td>💚 Lower CPU/Memory (~50MB RAM)</td>
+<td>💛 Higher CPU/Memory (~200MB+ RAM)</td>
+</tr>
+<tr>
+<td><strong>Training Data</strong></td>
+<td>Haar-like features</td>
+<td>Gradient histograms / Deep learning</td>
+</tr>
+<tr>
+<td><strong>Detection Method</strong></td>
+<td>Cascade of weak classifiers</td>
+<td>Feature descriptors / Neural networks</td>
+</tr>
+<tr>
+<td><strong>Use Cases</strong></td>
+<td>Real-time, embedded systems</td>
+<td>Quality over speed, offline</td>
+</tr>
+<tr>
+<td><strong>Best For</strong></td>
+<td>Frontal face detection</td>
+<td>Varied poses and lighting</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 class="code-line" data-line-start=694 data-line-end=695 ><a id="_Method_1_Haar_Cascade_Classifier_694"></a>🎯 Method 1: Haar Cascade Classifier</h3>
+<p class="has-line-data" data-line-start="696" data-line-end="697"><strong>What it is:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="697" data-line-end="698">A machine learning based approach invented by Paul Viola and Michael Jones in 2001</li>
+<li class="has-line-data" data-line-start="698" data-line-end="699">Uses Haar-like features (rectangular patterns) to detect objects</li>
+<li class="has-line-data" data-line-start="699" data-line-end="701">Applies a cascade of simple classifiers to quickly reject non-face regions</li>
+</ul>
+<p class="has-line-data" data-line-start="701" data-line-end="702"><strong>How it works:</strong></p>
+<ol>
+<li class="has-line-data" data-line-start="702" data-line-end="703"><strong>Feature Extraction</strong>: Scans image with rectangular filters looking for edge, line, and contrast patterns</li>
+<li class="has-line-data" data-line-start="703" data-line-end="704"><strong>Cascade Structure</strong>: Uses multiple stages (classifiers) - each stage rejects obvious non-faces</li>
+<li class="has-line-data" data-line-start="704" data-line-end="705"><strong>Sliding Window</strong>: Moves a detection window across different scales and positions</li>
+<li class="has-line-data" data-line-start="705" data-line-end="707"><strong>AdaBoost Algorithm</strong>: Combines many weak classifiers into one strong classifier</li>
+</ol>
+<p class="has-line-data" data-line-start="707" data-line-end="708"><strong>Advantages:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="708" data-line-end="709">✅ <strong>Very Fast</strong>: Can process 30+ frames per second on modest hardware</li>
+<li class="has-line-data" data-line-start="709" data-line-end="710">✅ <strong>Low Resource</strong>: Runs well on embedded systems (Raspberry Pi, Jetson Nano)</li>
+<li class="has-line-data" data-line-start="710" data-line-end="711">✅ <strong>Well-established</strong>: Proven technology with 20+ years of use</li>
+<li class="has-line-data" data-line-start="711" data-line-end="712">✅ <strong>Pre-trained Models</strong>: Ready-to-use XML files available in OpenCV</li>
+<li class="has-line-data" data-line-start="712" data-line-end="714">✅ <strong>Simple Implementation</strong>: Only a few lines of code needed</li>
+</ul>
+<p class="has-line-data" data-line-start="714" data-line-end="715"><strong>Disadvantages:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="715" data-line-end="716">❌ <strong>Angle Sensitive</strong>: Works best with frontal faces (±15° rotation)</li>
+<li class="has-line-data" data-line-start="716" data-line-end="717">❌ <strong>Lighting Sensitive</strong>: Performance drops in poor lighting conditions</li>
+<li class="has-line-data" data-line-start="717" data-line-end="718">❌ <strong>False Positives</strong>: May detect faces in non-face regions</li>
+<li class="has-line-data" data-line-start="718" data-line-end="719">❌ <strong>Limited Pose</strong>: Struggles with profile views or tilted faces</li>
+<li class="has-line-data" data-line-start="719" data-line-end="721">❌ <strong>Grayscale Only</strong>: Must convert color images to grayscale</li>
+</ul>
+<p class="has-line-data" data-line-start="721" data-line-end="722"><strong>Best Use Cases:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="722" data-line-end="723">Real-time face detection in video streams</li>
+<li class="has-line-data" data-line-start="723" data-line-end="724">Embedded systems with limited computational power</li>
+<li class="has-line-data" data-line-start="724" data-line-end="725">Applications where speed &gt; accuracy</li>
+<li class="has-line-data" data-line-start="725" data-line-end="726">Surveillance cameras, door access systems</li>
+<li class="has-line-data" data-line-start="726" data-line-end="728">Mobile apps requiring low battery consumption</li>
+</ul>
+<p class="has-line-data" data-line-start="728" data-line-end="729"><strong>Code Example (from Task 1):</strong></p>
+<pre><code class="has-line-data" data-line-start="730" data-line-end="741" class="language-python"><span class="hljs-comment"># Load Haar Cascade classifier</span>
+face_cascade = cv2.CascadeClassifier(<span class="hljs-string">"haarcascade_frontalface_default.xml"</span>)
+
+<span class="hljs-comment"># Detect faces</span>
+faces = face_cascade.detectMultiScale(
+    gray_image,
+    scaleFactor=<span class="hljs-number">1.1</span>,    <span class="hljs-comment"># Image pyramid scale</span>
+    minNeighbors=<span class="hljs-number">5</span>,     <span class="hljs-comment"># Detection quality threshold</span>
+    minSize=(<span class="hljs-number">30</span>, <span class="hljs-number">30</span>)    <span class="hljs-comment"># Minimum face size</span>
+)
+</code></pre>
+<hr>
+<h3 class="code-line" data-line-start=744 data-line-end=745 ><a id="_Method_2_HOG_Histogram_of_Oriented_Gradients_744"></a>🎯 Method 2: HOG (Histogram of Oriented Gradients)</h3>
+<p class="has-line-data" data-line-start="746" data-line-end="747"><strong>What it is:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="747" data-line-end="748">A feature descriptor that counts gradient orientations in localized image regions</li>
+<li class="has-line-data" data-line-start="748" data-line-end="749">Originally developed by Navneet Dalal and Bill Triggs in 2005 for pedestrian detection</li>
+<li class="has-line-data" data-line-start="749" data-line-end="750">Used with SVM (Support Vector Machine) classifier for face detection</li>
+<li class="has-line-data" data-line-start="750" data-line-end="752">In Task 3, we use dlib’s implementation or OpenCV’s DNN as fallback</li>
+</ul>
+<p class="has-line-data" data-line-start="752" data-line-end="753"><strong>How it works:</strong></p>
+<ol>
+<li class="has-line-data" data-line-start="753" data-line-end="754"><strong>Gradient Calculation</strong>: Computes horizontal and vertical gradients (edges) in the image</li>
+<li class="has-line-data" data-line-start="754" data-line-end="755"><strong>Cell Division</strong>: Divides image into small cells (e.g., 8×8 pixels)</li>
+<li class="has-line-data" data-line-start="755" data-line-end="756"><strong>Histogram Creation</strong>: Creates histogram of gradient directions for each cell</li>
+<li class="has-line-data" data-line-start="756" data-line-end="757"><strong>Block Normalization</strong>: Normalizes histograms across larger blocks for lighting invariance</li>
+<li class="has-line-data" data-line-start="757" data-line-end="758"><strong>Feature Vector</strong>: Concatenates all histograms into a single feature vector</li>
+<li class="has-line-data" data-line-start="758" data-line-end="760"><strong>Classification</strong>: Uses SVM or neural network to classify if region contains a face</li>
+</ol>
+<p class="has-line-data" data-line-start="760" data-line-end="761"><strong>Advantages:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="761" data-line-end="762">✅ <strong>More Accurate</strong>: Higher detection rate (92-98%) compared to Haar Cascade</li>
+<li class="has-line-data" data-line-start="762" data-line-end="763">✅ <strong>Robust to Lighting</strong>: Better performance in varied lighting conditions</li>
+<li class="has-line-data" data-line-start="763" data-line-end="764">✅ <strong>Better Angles</strong>: Can detect faces at various angles (±30-45°)</li>
+<li class="has-line-data" data-line-start="764" data-line-end="765">✅ <strong>Fewer False Positives</strong>: More discriminative features reduce false detections</li>
+<li class="has-line-data" data-line-start="765" data-line-end="767">✅ <strong>Scale Invariant</strong>: Handles different face sizes better</li>
+</ul>
+<p class="has-line-data" data-line-start="767" data-line-end="768"><strong>Disadvantages:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="768" data-line-end="769">❌ <strong>Slower Processing</strong>: 2-4x slower than Haar Cascade</li>
+<li class="has-line-data" data-line-start="769" data-line-end="770">❌ <strong>Higher Memory</strong>: Requires more RAM for feature computation</li>
+<li class="has-line-data" data-line-start="770" data-line-end="771">❌ <strong>Complex Implementation</strong>: More parameters to tune</li>
+<li class="has-line-data" data-line-start="771" data-line-end="772">❌ <strong>Dependency</strong>: Requires additional libraries (dlib or DNN models)</li>
+<li class="has-line-data" data-line-start="772" data-line-end="774">❌ <strong>Training Complexity</strong>: Harder to train custom models</li>
+</ul>
+<p class="has-line-data" data-line-start="774" data-line-end="775"><strong>Best Use Cases:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="775" data-line-end="776">High-quality photo analysis</li>
+<li class="has-line-data" data-line-start="776" data-line-end="777">Security applications requiring high accuracy</li>
+<li class="has-line-data" data-line-start="777" data-line-end="778">Batch processing of images/videos</li>
+<li class="has-line-data" data-line-start="778" data-line-end="779">Applications with adequate computational resources</li>
+<li class="has-line-data" data-line-start="779" data-line-end="781">Detection in challenging lighting conditions</li>
+</ul>
+<p class="has-line-data" data-line-start="781" data-line-end="782"><strong>Code Example (from Task 3):</strong></p>
+<pre><code class="has-line-data" data-line-start="783" data-line-end="796" class="language-python"><span class="hljs-keyword">import</span> dlib
+
+<span class="hljs-comment"># Initialize HOG face detector</span>
+hog_face_detector = dlib.get_frontal_face_detector()
+
+<span class="hljs-comment"># Detect faces (upsample=1 means check image at 1 scale)</span>
+faces = hog_face_detector(gray_image, <span class="hljs-number">1</span>)
+
+<span class="hljs-comment"># Convert dlib rectangles to OpenCV format</span>
+<span class="hljs-keyword">for</span> face <span class="hljs-keyword">in</span> faces:
+    x, y = face.left(), face.top()
+    w, h = face.right() - x, face.bottom() - y
+</code></pre>
+<hr>
+<h3 class="code-line" data-line-start=799 data-line-end=800 ><a id="_Performance_Comparison_799"></a>📊 Performance Comparison</h3>
+<p class="has-line-data" data-line-start="801" data-line-end="802"><strong>Processing Speed (640×480 image on Jetson Nano):</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="802" data-line-end="803"><strong>Haar Cascade</strong>: ~40ms per frame (25 FPS)</li>
+<li class="has-line-data" data-line-start="803" data-line-end="804"><strong>HOG</strong>: ~100-150ms per frame (7-10 FPS)</li>
+<li class="has-line-data" data-line-start="804" data-line-end="806"><strong>DNN (Deep Neural Network)</strong>: ~80-120ms per frame (8-12 FPS)</li>
+</ul>
+<p class="has-line-data" data-line-start="806" data-line-end="807"><strong>Detection Accuracy (frontal faces):</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="807" data-line-end="808"><strong>Haar Cascade</strong>: 85-90% detection rate</li>
+<li class="has-line-data" data-line-start="808" data-line-end="809"><strong>HOG</strong>: 92-95% detection rate</li>
+<li class="has-line-data" data-line-start="809" data-line-end="811"><strong>DNN</strong>: 95-98% detection rate</li>
+</ul>
+<p class="has-line-data" data-line-start="811" data-line-end="812"><strong>Memory Usage:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="812" data-line-end="813"><strong>Haar Cascade</strong>: ~30-50 MB RAM</li>
+<li class="has-line-data" data-line-start="813" data-line-end="814"><strong>HOG</strong>: ~100-150 MB RAM</li>
+<li class="has-line-data" data-line-start="814" data-line-end="816"><strong>DNN</strong>: ~200-300 MB RAM</li>
+</ul>
+<hr>
+<h3 class="code-line" data-line-start=818 data-line-end=819 ><a id="_Which_Method_Should_You_Use_818"></a>🤔 Which Method Should You Use?</h3>
+<p class="has-line-data" data-line-start="820" data-line-end="821"><strong>Choose Haar Cascade if:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="821" data-line-end="822">✅ You need real-time performance (video streaming, live camera)</li>
+<li class="has-line-data" data-line-start="822" data-line-end="823">✅ Running on embedded/low-power devices (Jetson Nano, Raspberry Pi)</li>
+<li class="has-line-data" data-line-start="823" data-line-end="824">✅ Faces are mostly frontal (webcam, video chat)</li>
+<li class="has-line-data" data-line-start="824" data-line-end="825">✅ Battery life is a concern (mobile devices)</li>
+<li class="has-line-data" data-line-start="825" data-line-end="827">✅ Simple implementation is preferred</li>
+</ul>
+<p class="has-line-data" data-line-start="827" data-line-end="828"><strong>Choose HOG/DNN if:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="828" data-line-end="829">✅ Accuracy is more important than speed</li>
+<li class="has-line-data" data-line-start="829" data-line-end="830">✅ Processing pre-recorded images/videos (not real-time)</li>
+<li class="has-line-data" data-line-start="830" data-line-end="831">✅ Need to handle various face angles</li>
+<li class="has-line-data" data-line-start="831" data-line-end="832">✅ Working with challenging lighting conditions</li>
+<li class="has-line-data" data-line-start="832" data-line-end="834">✅ Hardware resources are sufficient (desktop, server)</li>
+</ul>
+<p class="has-line-data" data-line-start="834" data-line-end="835"><strong>Real-World Examples:</strong></p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Application</th>
+<th>Recommended Method</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Video Conferencing (Zoom)</td>
+<td>Haar Cascade</td>
+<td>Real-time, frontal faces, low latency</td>
+</tr>
+<tr>
+<td>Photo Tagging (Facebook)</td>
+<td>HOG/DNN</td>
+<td>High accuracy, batch processing</td>
+</tr>
+<tr>
+<td>Security Camera</td>
+<td>Haar Cascade</td>
+<td>24/7 operation, energy efficient</td>
+</tr>
+<tr>
+<td>Police Forensics</td>
+<td>HOG/DNN</td>
+<td>Accuracy critical, varied angles</td>
+</tr>
+<tr>
+<td>Smartphone Camera</td>
+<td>Haar Cascade</td>
+<td>Battery life, fast autofocus</td>
+</tr>
+<tr>
+<td>Airport Security</td>
+<td>HOG/DNN</td>
+<td>High accuracy required, powerful hardware</td>
+</tr>
+<tr>
+<td>Door Access Control</td>
+<td>Haar Cascade</td>
+<td>Fast response, controlled environment</td>
+</tr>
+<tr>
+<td>Photo Editing Software</td>
+<td>HOG/DNN</td>
+<td>Quality matters, no time constraint</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 class="code-line" data-line-start=849 data-line-end=850 ><a id="_Deep_Dive_How_They_Actually_Work_849"></a>🔬 Deep Dive: How They Actually Work</h3>
+<p class="has-line-data" data-line-start="851" data-line-end="852"><strong>Haar Cascade - The Cascade Process:</strong></p>
+<pre><code class="has-line-data" data-line-start="854" data-line-end="868">Image Input
+    ↓
+Stage 1: Check for basic face-like patterns (very fast)
+    ↓ (95% of regions rejected here)
+Stage 2: Check for more specific features (eyes region)
+    ↓ (4% more regions rejected)
+Stage 3: Check for nose region patterns
+    ↓ (0.8% more regions rejected)
+...continues through 20+ stages...
+    ↓ (only 0.01% of regions remain)
+Final Stage: Confirm it's a face
+    ↓
+Face Detected! ✅
+</code></pre>
+<p class="has-line-data" data-line-start="869" data-line-end="870"><strong>Why it’s fast:</strong> Most of the image is rejected in the first few stages, so only a tiny fraction goes through all stages.</p>
+<p class="has-line-data" data-line-start="871" data-line-end="872"><strong>HOG - The Feature Extraction Process:</strong></p>
+<pre><code class="has-line-data" data-line-start="874" data-line-end="890">Image Input
+    ↓
+Compute Gradients (detect edges)
+    ↓
+Divide into 8×8 pixel cells
+    ↓
+Calculate gradient histogram for each cell (9 bins)
+    ↓
+Group cells into 2×2 blocks and normalize
+    ↓
+Concatenate all histograms into feature vector
+    ↓
+Feed into SVM classifier
+    ↓
+Face or Not Face? ✅/❌
+</code></pre>
+<p class="has-line-data" data-line-start="891" data-line-end="892"><strong>Why it’s accurate:</strong> Gradient histograms capture the fundamental shape and edge structure of faces, which is robust to lighting and minor variations.</p>
+<hr>
+<h3 class="code-line" data-line-start=895 data-line-end=896 ><a id="_Key_Takeaways_895"></a>💡 Key Takeaways</h3>
+<ol>
+<li class="has-line-data" data-line-start="897" data-line-end="901">
+<p class="has-line-data" data-line-start="897" data-line-end="898"><strong>Haar Cascade</strong> = Speed Champion 🏃‍♂️</p>
+<ul>
+<li class="has-line-data" data-line-start="898" data-line-end="899">Use when you need fast, real-time detection</li>
+<li class="has-line-data" data-line-start="899" data-line-end="901">Best for frontal faces in controlled environments</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="901" data-line-end="905">
+<p class="has-line-data" data-line-start="901" data-line-end="902"><strong>HOG</strong> = Accuracy Champion 🎯</p>
+<ul>
+<li class="has-line-data" data-line-start="902" data-line-end="903">Use when accuracy matters most</li>
+<li class="has-line-data" data-line-start="903" data-line-end="905">Better for varied poses and lighting</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="905" data-line-end="909">
+<p class="has-line-data" data-line-start="905" data-line-end="906"><strong>Both are valuable</strong> - Learn when to use each!</p>
+<ul>
+<li class="has-line-data" data-line-start="906" data-line-end="907">Modern applications often use both (Haar for quick screening, HOG for verification)</li>
+<li class="has-line-data" data-line-start="907" data-line-end="909">Understanding tradeoffs makes you a better computer vision engineer</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="909" data-line-end="914">
+<p class="has-line-data" data-line-start="909" data-line-end="910"><strong>Task 3 includes live comparison</strong> - Run both and see the difference!</p>
+<ul>
+<li class="has-line-data" data-line-start="910" data-line-end="911">Compare detection boxes (green vs blue)</li>
+<li class="has-line-data" data-line-start="911" data-line-end="912">Check detection times</li>
+<li class="has-line-data" data-line-start="912" data-line-end="914">Test with different images</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 class="code-line" data-line-start=916 data-line-end=917 ><a id="_Further_Reading_916"></a>📚 Further Reading</h3>
+<p class="has-line-data" data-line-start="918" data-line-end="919"><strong>Haar Cascade:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="919" data-line-end="920">Original Paper: “Rapid Object Detection using a Boosted Cascade of Simple Features” (Viola &amp; Jones, 2001)</li>
+<li class="has-line-data" data-line-start="920" data-line-end="922">OpenCV Documentation: <a href="https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html">https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html</a></li>
+</ul>
+<p class="has-line-data" data-line-start="922" data-line-end="923"><strong>HOG:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="923" data-line-end="924">Original Paper: “Histograms of Oriented Gradients for Human Detection” (Dalal &amp; Triggs, 2005)</li>
+<li class="has-line-data" data-line-start="924" data-line-end="926">dlib Documentation: <a href="http://dlib.net/face_detector.py.html">http://dlib.net/face_detector.py.html</a></li>
+</ul>
+<hr>
+<h3 class="code-line" data-line-start=928 data-line-end=929 ><a id="_Assignment_Challenge_928"></a>🎓 Assignment Challenge</h3>
+<p class="has-line-data" data-line-start="930" data-line-end="931">After completing all three tasks, try this experiment:</p>
+<ol>
+<li class="has-line-data" data-line-start="932" data-line-end="933">Take the same test image</li>
+<li class="has-line-data" data-line-start="933" data-line-end="937">Run Task 1 (Haar Cascade) and note:
+<ul>
+<li class="has-line-data" data-line-start="934" data-line-end="935">Detection time</li>
+<li class="has-line-data" data-line-start="935" data-line-end="936">Number of faces detected</li>
+<li class="has-line-data" data-line-start="936" data-line-end="937">Bounding box positions</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="937" data-line-end="938">Run Task 3 (HOG) and note the same metrics</li>
+<li class="has-line-data" data-line-start="938" data-line-end="944">Compare the results:
+<ul>
+<li class="has-line-data" data-line-start="939" data-line-end="940">Which was faster?</li>
+<li class="has-line-data" data-line-start="940" data-line-end="941">Which detected more faces?</li>
+<li class="has-line-data" data-line-start="941" data-line-end="942">Were the bounding boxes more accurate in one method?</li>
+<li class="has-line-data" data-line-start="942" data-line-end="944">Did either have false positives?</li>
+</ul>
+</li>
+</ol>
+<p class="has-line-data" data-line-start="944" data-line-end="945">This hands-on comparison will deepen your understanding of both methods!</p>
+<hr>
+<h2 class="code-line" data-line-start=948 data-line-end=949 ><a id="_Quick_Reference_Summary_948"></a>📊 Quick Reference Summary</h2>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Feature</th>
+<th>Haar Cascade (Tasks 1 &amp; 2)</th>
+<th>HOG/DNN (Task 3)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Speed</strong></td>
+<td>⚡ Faster</td>
+<td>🐢 Slower</td>
+</tr>
+<tr>
+<td><strong>Accuracy</strong></td>
+<td>👌 Good for frontal faces</td>
+<td>🎯 More accurate overall</td>
+</tr>
+<tr>
+<td><strong>Robustness</strong></td>
+<td>⚠️ Sensitive to angle/lighting</td>
+<td>✅ Handles variations better</td>
+</tr>
+<tr>
+<td><strong>Resource Usage</strong></td>
+<td>💚 Lower CPU/Memory</td>
+<td>💛 Higher CPU/Memory</td>
+</tr>
+<tr>
+<td><strong>Use Cases</strong></td>
+<td>Real-time, embedded systems</td>
+<td>Quality over speed, offline</td>
+</tr>
+<tr>
+<td><strong>Best For</strong></td>
+<td>Frontal face detection</td>
+<td>Varied poses and lighting</td>
+</tr>
+</tbody>
+</table>
+<p class="has-line-data" data-line-start="959" data-line-end="960"><strong>When to use Haar Cascade:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="960" data-line-end="961">Real-time applications where speed is critical</li>
+<li class="has-line-data" data-line-start="961" data-line-end="962">Limited computational resources (embedded systems)</li>
+<li class="has-line-data" data-line-start="962" data-line-end="963">Frontal face detection is sufficient</li>
+<li class="has-line-data" data-line-start="963" data-line-end="965">Battery-powered devices</li>
+</ul>
+<p class="has-line-data" data-line-start="965" data-line-end="966"><strong>When to use HOG/DNN:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="966" data-line-end="967">Accuracy is more important than speed</li>
+<li class="has-line-data" data-line-start="967" data-line-end="968">Sufficient computational resources available</li>
+<li class="has-line-data" data-line-start="968" data-line-end="969">Need to detect faces at various angles</li>
+<li class="has-line-data" data-line-start="969" data-line-end="971">Post-processing/offline analysis</li>
+</ul>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"740eb3d0dfbc4d969cb53bbdc802ad63","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body></html>
